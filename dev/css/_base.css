@@ -1,3 +1,4 @@
+/* Basic */
 html {
 	font-size: 62.5%;
 	box-sizing: border-box;
@@ -37,6 +38,8 @@ p {
 	hyphens: auto;
 }
 
+
+/* Links */
 a {
 	text-decoration: none;
 	border-bottom: 1px solid;
@@ -54,3 +57,11 @@ a.blue {
 a.blue:hover {
 	color: $red;
 }
+
+
+/* Typorgaphy */
+
+h4, h5, h6 {
+	font-weight: $fontWeightNormal;
+	line-height: 130%;
+} 
