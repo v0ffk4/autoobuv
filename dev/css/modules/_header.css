@@ -1,6 +1,6 @@
 header {
 	height: 60px;
-	background-color: $red;
+	background-color: white;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -25,10 +25,44 @@ header {
 			margin: 0 15px;
 		}
 
-		a {
-			color: $baseBlack;
+		a.cat-menu-item {
+			padding: 5px 15px;
+			border-radius: 3px;
+			border-bottom: none;
+			background-color: $baseGrey;
+			color: white;
+			text-decoration: none;
+			transition-duration: $transitionDurationDefault;
+		}
+		
+		a.cat-menu-item:hover {
+			background-color: $red;
+			transition-duration: $transitionDurationDefault;
 		}
 
 	} /* nav-main */
+
+	.header-contact-info {
+		text-align: right;
+
+		p {
+			font-size: $fontSizeLarge;
+			font-weight: $fontWeightNormal;
+			margin: 0;
+			padding: 0;				
+		}
+
+		a {
+			font-size: $fontSizeMedium;
+			color: $red;
+			text-decoration: none;
+			border-bottom: 1px dotted;
+		}
+
+		a:hover {
+			color: $yellow;
+		}
+
+	} /* .header-contact-info */
 
 } /* header */

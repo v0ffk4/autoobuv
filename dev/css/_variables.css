@@ -1,14 +1,14 @@
 /* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,700);
 
-$font-main: Lato, Helvetica, Arial, sans-serif;
-$font-weight-light:		300;
-$font-weight-normal:	400;
-$font-weight-bold:		600;
+$fontMain: Lato, Helvetica, Arial, sans-serif;
+$fontWeightLight:		300;
+$fontWeightNormal:		400;
+$fontWeightBold:		600;
 
-$font-size-large:	1.8rem;
-$font-size-medium:	1.4rem;
-$font-size-small:	1rem;
+$fontSizeLarge:		1.8rem;
+$fontSizeMedium:	1.2rem;
+$fontSizeSmall:		1rem;
 
 
 /* Colors */

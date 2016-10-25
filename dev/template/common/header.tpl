@@ -27,6 +27,7 @@
 <body class="<?php echo $class; ?>">
 
 	<header>
+
 		<img class="logo" src="catalog/view/theme/autoobuv/image/logo.svg">
 
 		<nav class="nav-main">
@@ -38,11 +39,18 @@
 			</ul>
 		</nav>
 		<!-- /.nav-main -->
-
+		
+		<!-- js for catalogue button -->
 		<script type="text/javascript">
-			document.getElementsByClassName('nav-main')[0].getElementsByTagName('li')[0].className += "cat-menu-item";
-			alert(a);
+			var catMenuItem = document.getElementsByClassName('nav-main')[0].getElementsByTagName('a')[0];
+			catMenuItem.className += "cat-menu-item";
 		</script>
+
+		<div class="header-contact-info">
+			<p>8-800-250-57-07</p>
+			<a href="#">обратный звонок</a>
+		</div>
+		<!-- /.header-contact-info -->
 		
 
 	</header>
