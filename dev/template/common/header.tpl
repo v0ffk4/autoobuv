@@ -47,7 +47,8 @@
 		</script>
 
 		<div class="header-contact-info">
-			<p>8-800-250-57-07</p>
+			<p><img src="catalog/view/theme/autoobuv/image/icon-header-phone.svg">8-800-250-57-07</p>
+			
 			<a href="#">обратный звонок</a>
 		</div>
 		<!-- /.header-contact-info -->
