@@ -59,4 +59,7 @@
 		<!-- /.header-content -->
 		
 	</header>
+	
+	<!-- wrapper is closed in footer.tpl -->
+	<div class="wrapper">
 
