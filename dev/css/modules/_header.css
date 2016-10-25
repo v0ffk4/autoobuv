@@ -1,4 +1,9 @@
 header {
+	position: fixed;
+	width: 100vw;
+}
+
+.header-content {
 	height: 60px;
 	background-color: white;
 	display: flex;
@@ -72,4 +77,4 @@ header {
 
 	} /* .header-contact-info */
 
-} /* header */
+} /* .header-content */
