@@ -116,12 +116,12 @@
 	</section>
 	<!-- /.advantages -->
 
+	<img class="about-arrow" src="catalog/view/theme/autoobuv/image/about-arrow.svg">
+
+	<img class="container" src="catalog/view/theme/autoobuv/image/container.jpg">
+
 </section>
 <!-- /.about -->
-
-<img class="about-arrow" src="catalog/view/theme/autoobuv/image/about-arrow.svg">
-
-<img class="container" src="catalog/view/theme/autoobuv/image/container.jpg">
 
 
 
