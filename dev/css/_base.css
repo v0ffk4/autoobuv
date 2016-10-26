@@ -63,5 +63,5 @@ a.blue:hover {
 
 h4, h5, h6 {
 	font-weight: $fontWeightNormal;
-	line-height: 130%;
-} 
+	line-height: 100%;
+}
