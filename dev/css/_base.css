@@ -6,7 +6,9 @@ html {
 	font-weight: $fontWeightLight;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
 	box-sizing: inherit;
 }
 
@@ -29,13 +31,15 @@ body {
 	line-height: 160%;
 
 	@media $small {
-		font-size:1.5rem;
+		font-size:1.6rem;
 		text-align: left;
 	}
 }
 
-p {
-	hyphens: auto;
+.container {
+	width: 80vw;
+	margin: 0 auto;
+	padding-top: 1px;
 }
 
 
@@ -61,7 +65,27 @@ a.blue:hover {
 
 /* Typorgaphy */
 
-h4, h5, h6 {
+h1,
+h2,
+h3 {
+	font-weight: $fontWeightLight;
+}
+
+h4,
+h5,
+h6 {
 	font-weight: $fontWeightNormal;
 	line-height: 100%;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+p {
+	hyphens: auto;
+}
+
+span {
+	font-style: italic;
 }

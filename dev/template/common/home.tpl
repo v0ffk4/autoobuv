@@ -2,7 +2,7 @@
 	
 <div class="homepage-banner-container">
 	
-	<div class="homepage-banner-content">
+	<section class="container homepage-banner-content">
 			
 		<nav class="homepage-banner-menu">
 			<ul>
@@ -75,8 +75,42 @@
 		</nav>
 		<!-- /.homepage-banner-menu -->
 
-	</div>
+	</section>
 	<!-- /.homepage-banner-content -->
+
+	<section class="container about">
+
+		<section class="why-us">
+			<h1>Почему мы</h1>
+			<p>С 2010 года поставляем автомобильные шины широкого спектра для грузовых автомобилей и спецтехники в регионы России.</p>
+			<p><img src="catalog/view/theme/autoobuv/image/icon-checkmark.svg"><span>Для каждого клиента у нас особый подход и условия сотрудничества.</span></p>
+		</section>
+		<!-- /.why-us -->
+		
+		<section class="advantages">
+			<section>
+				<div>
+					<h2>Оптимальная логистика</h2>
+					<p>Подразделение нашей компании оказывает логистические услуги, поэтому мы тратим на логистику меньше.</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h2>Прямые поставки</h2>
+					<p>Мы напрямую сотрудничаем с производителями без посредников.</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h2>Продукция на складе</h2>
+					<p>У нас собственный склад, поэтому мы не платим за хранение.</p>
+				</div>
+			</section>
+		</section>
+		<!-- /.advantages -->
+
+	</section>
+	<!-- /.about -->
 
 	
 </div>
