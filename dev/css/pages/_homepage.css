@@ -1,5 +1,8 @@
 .homepage-banner-container {
 	height: 120vh;
+	background-image: url(/catalog/view/theme/autoobuv/image/bcg-build-autoobuv.png), url(/catalog/view/theme/autoobuv/image/bcg-clouds.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: center bottom, center;
 }
 
 .homepage-banner-content {
