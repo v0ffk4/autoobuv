@@ -86,7 +86,8 @@
 
 	<section class="why-us">
 		<h1>Почему мы</h1>
-		<p>С 2010 года поставляем автомобильные шины широкого спектра для грузовых автомобилей и спецтехники в регионы России.</p>
+		<p>С 2010 года поставляем автомобильные шины широкого спектра для грузовых автомобилей<br>
+		и спецтехники в регионы России.</p>
 		<p><img src="catalog/view/theme/autoobuv/image/icon-checkmark.svg"><span>Для каждого клиента у нас особый подход и условия сотрудничества.</span></p>
 	</section>
 	<!-- /.why-us -->
@@ -96,21 +97,24 @@
 			<img src="catalog/view/theme/autoobuv/image/icon-advantages-logistics.svg">
 			<div>
 				<h2>Оптимальная логистика</h2>
-				<p>Подразделение нашей компании оказывает логистические услуги, поэтому мы тратим на логистику меньше.</p>
+				<p>Подразделение нашей компании оказывает логистические услуги,<br>
+				поэтому мы тратим на логистику меньше.</p>
 			</div>
 		</section>
 		<section>
 			<img src="catalog/view/theme/autoobuv/image/icon-advantages-delivery.svg">
 			<div>
 				<h2>Прямые поставки</h2>
-				<p>Мы напрямую сотрудничаем с производителями без посредников.</p>
+				<p>Мы напрямую сотрудничаем с производителями<br>
+				без посредников.</p>
 			</div>
 		</section>
 		<section>
 			<img src="catalog/view/theme/autoobuv/image/icon-advantages-warehouse.svg">
 			<div>
 				<h2>Продукция на складе</h2>
-				<p>У нас собственный склад, поэтому мы не платим за хранение.</p>
+				<p>У нас собственный склад, поэтому<br>
+				мы не платим за хранение.</p>
 			</div>
 		</section>
 	</section>
@@ -147,8 +151,27 @@
 	<div class="black-stripe">		
 	</div>
 	<!-- /.black-stripe -->
-
 	<img class="about-arrow" src="catalog/view/theme/autoobuv/image/about-arrow.svg">
+
+	<section class="reliability">
+		<h1>Наша надежность подтверждена сертификатами...</h1>
+		<img class="cert" src="catalog/view/theme/autoobuv/image/about-cert.png">
+		<p><a href="#">скачать сертификаты <span>(10мб, pdf)</span></a></p>
+	</section>
+	<!-- /.reliability -->
+
+	<section class="partnership">
+		<h1>...и успешным партнерством:</h1>
+		<div class="logos">
+			<img class="cert" src="catalog/view/theme/autoobuv/image/logo-otani.svg">
+			<img class="cert" src="catalog/view/theme/autoobuv/image/logo-aufine.svg">
+			<img class="cert" src="catalog/view/theme/autoobuv/image/logo-goodtyre.svg">
+			<img class="cert" src="catalog/view/theme/autoobuv/image/logo-headway.svg">
+			
+		</div>
+		<!-- /.logos -->
+	</section>
+	<!-- /.partnership -->
 
 
 

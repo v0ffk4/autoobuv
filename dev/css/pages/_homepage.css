@@ -83,9 +83,17 @@
 	background-size: 590px;
 	position: relative;
 
+	h1 {
+		text-align: center;
+	}
+
 	.why-us {
 		position: absolute;
-		left: 125px;
+		left: 135px;
+
+		h1 {
+			text-align: left;
+		}
 
 		p {
 			font-size: 1.8rem;
@@ -103,7 +111,7 @@
 		margin: 280px 0 80px 610px;
 
 		section {
-			margin-top:90px;
+			margin-top: 70px;
 			display: flex;
 			align-items: center;
 		}
@@ -130,7 +138,6 @@
 		margin-bottom: 5rem;
 
 		h1 {
-			text-align: center;
 			margin-bottom: 5rem;
 		}
 			
@@ -164,6 +171,37 @@
 		}
 
 	} /* extras */
+
+	.reliability {
+
+		margin: 5rem 0 10rem 0;
+
+		img.cert {
+			display: block;
+			margin: 0 auto;
+		}
+
+		p {
+			text-align: center;
+		}
+
+	} /* reliability */
+
+	.partnership {
+
+		.logos {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		img {
+			display: block;
+			flex: 1 1 25%;
+			margin: 2.5rem 4rem;
+			max-width: 200px;
+		}
+
+	}
 
 } /* about */
 
