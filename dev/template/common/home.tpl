@@ -124,22 +124,33 @@
 		<h1>А также:</h1>
 		<ul>
 			<li>
+				<img src="catalog/view/theme/autoobuv/image/icon-about-door.svg">
 				<h5>Доставка по всей России</h5>
 				<p>Отправляем в регионы транспортными компаниями: "Деловые Линии", "Энергия", "ПЭК", "РАТЭК".</p>
 			</li>
 
 			<li>
+				<img src="catalog/view/theme/autoobuv/image/icon-about-crown.svg">
 				<h5>Гарантии качества</h5>
 				<p>Все шины имеют все необходимые сертификаты качества и адаптированы к суровым условиям эксплуатации.</p>
 			</li>
 
 			<li>
+				<img src="catalog/view/theme/autoobuv/image/icon-about-briefcase.svg">
 				<h5>Различные формы оплаты</h5>
 				<p>Работаем по 100% и частичной предоплате, любая форма оплаты. Надеемся на долговременное сотрудничество, ждем Ваши заявки!</p>
 			</li>
 		</ul>
 	</section>
 	<!-- /.extras -->
+
+	<div class="black-stripe">		
+	</div>
+	<!-- /.black-stripe -->
+
+	<img class="about-arrow" src="catalog/view/theme/autoobuv/image/about-arrow.svg">
+
+
 
 </section>
 <!-- /.about -->

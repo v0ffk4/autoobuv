@@ -26,12 +26,12 @@ body {
 	background-color: white;
 	font-family: $font-main;
 	font-weight: $font-weight-light;
-	font-size:1.4rem;
+	font-size:1.6rem;
 	text-align: justify;
 	line-height: 160%;
 
 	@media $small {
-		font-size:1.6rem;
+		font-size:1.8rem;
 		text-align: left;
 	}
 }
