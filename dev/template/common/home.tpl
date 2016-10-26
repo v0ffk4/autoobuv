@@ -1,6 +1,6 @@
 <?php echo $header; ?>
 	
-<div class="homepage-banner-container">
+<div class="homepage-banner">
 	
 	<section class="container homepage-banner-content">
 			
@@ -78,42 +78,51 @@
 	</section>
 	<!-- /.homepage-banner-content -->
 
-	<section class="container about">
-
-		<section class="why-us">
-			<h1>Почему мы</h1>
-			<p>С 2010 года поставляем автомобильные шины широкого спектра для грузовых автомобилей и спецтехники в регионы России.</p>
-			<p><img src="catalog/view/theme/autoobuv/image/icon-checkmark.svg"><span>Для каждого клиента у нас особый подход и условия сотрудничества.</span></p>
-		</section>
-		<!-- /.why-us -->
-		
-		<section class="advantages">
-			<section>
-				<div>
-					<h2>Оптимальная логистика</h2>
-					<p>Подразделение нашей компании оказывает логистические услуги, поэтому мы тратим на логистику меньше.</p>
-				</div>
-			</section>
-			<section>
-				<div>
-					<h2>Прямые поставки</h2>
-					<p>Мы напрямую сотрудничаем с производителями без посредников.</p>
-				</div>
-			</section>
-			<section>
-				<div>
-					<h2>Продукция на складе</h2>
-					<p>У нас собственный склад, поэтому мы не платим за хранение.</p>
-				</div>
-			</section>
-		</section>
-		<!-- /.advantages -->
-
-	</section>
-	<!-- /.about -->
-
-	
 </div>
 <!-- /.homepage-banner-container -->
+
+
+<section class="container about">
+
+	<section class="why-us">
+		<h1>Почему мы</h1>
+		<p>С 2010 года поставляем автомобильные шины широкого спектра для грузовых автомобилей и спецтехники в регионы России.</p>
+		<p><img src="catalog/view/theme/autoobuv/image/icon-checkmark.svg"><span>Для каждого клиента у нас особый подход и условия сотрудничества.</span></p>
+	</section>
+	<!-- /.why-us -->
+	
+	<section class="advantages">
+		<section>
+			<img src="catalog/view/theme/autoobuv/image/icon-advantages-logistics.svg">
+			<div>
+				<h2>Оптимальная логистика</h2>
+				<p>Подразделение нашей компании оказывает логистические услуги, поэтому мы тратим на логистику меньше.</p>
+			</div>
+		</section>
+		<section>
+			<img src="catalog/view/theme/autoobuv/image/icon-advantages-delivery.svg">
+			<div>
+				<h2>Прямые поставки</h2>
+				<p>Мы напрямую сотрудничаем с производителями без посредников.</p>
+			</div>
+		</section>
+		<section>
+			<img src="catalog/view/theme/autoobuv/image/icon-advantages-warehouse.svg">
+			<div>
+				<h2>Продукция на складе</h2>
+				<p>У нас собственный склад, поэтому мы не платим за хранение.</p>
+			</div>
+		</section>
+	</section>
+	<!-- /.advantages -->
+
+</section>
+<!-- /.about -->
+
+<img class="about-arrow" src="catalog/view/theme/autoobuv/image/about-arrow.svg">
+
+<img class="container" src="catalog/view/theme/autoobuv/image/container.jpg">
+
+
 
 <?php echo $footer; ?>

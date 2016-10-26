@@ -1,4 +1,4 @@
-.homepage-banner-container {
+.homepage-banner {
 	height: 130vh;
 	background-image: url(/catalog/view/theme/autoobuv/image/bcg-clouds.jpg);
 	background-repeat: no-repeat;
@@ -75,6 +75,7 @@
 } /* homepage-banner-menu */
 
 .about {
+	margin: 25px auto 25px auto;
 	height: 730px;
 	background-image: url(/catalog/view/theme/autoobuv/image/bcg-about.svg);
 	background-repeat: no-repeat;
@@ -84,7 +85,7 @@
 
 	.why-us {
 		position: absolute;
-		left: 110px;
+		left: 125px;
 
 		p {
 			font-size: 1.8rem;
@@ -92,16 +93,50 @@
 		
 		img {
 			width: 23px;
+			height: 23px;
 			margin: 0 10px -7px 0;
 		}
 
 	}
 
 	.advantages {
-		width: 40%;
-		margin-top: 280px;
-		background-color: green;
-		margin-left: auto;
+		margin-top: 300px;
+		margin-left: 620px;
+
+		section {
+			margin-top:100px;
+			display: flex;
+			align-items: center;
+		}
+
+		img {
+			width: 49px;
+			height: 49px;
+			margin-right: 20px;
+		}
+
+		p {
+			margin: 0;
+		}
+
+		h2 {
+			margin: 0 0 0.5rem 0;
+			color: $red;
+		}
+
 	}
 
+}
+
+img.about-arrow {
+	display: block;
+	width: 66px;
+	height: 106px;
+	margin: 40px auto;
+}
+
+img.container {
+	width: 1048px;
+	height: 416px;
+	display: block;
 }
