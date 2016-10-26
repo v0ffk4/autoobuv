@@ -97,7 +97,7 @@
 			margin: 0 10px -7px 0;
 		}
 
-	}
+	} /* why us */
 
 	.advantages {
 		margin-top: 300px;
@@ -124,9 +124,34 @@
 			color: $red;
 		}
 
-	}
+	} /* advantages */
 
-}
+	.extras {
+
+		h1 {
+			text-align: center;
+		}
+			
+		ul {
+			display: flex;
+		}
+		
+		li {
+			display: block;
+			margin: 0 20px;
+		}
+
+		img {
+			display: block;
+		}
+
+		p {
+			margin: 0
+		}
+
+	} /* extras */
+
+} /* about */
 
 img.about-arrow {
 	display: block;
