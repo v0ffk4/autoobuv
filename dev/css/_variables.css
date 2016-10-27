@@ -1,0 +1,41 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300,700);
+
+$fontMain: Lato, Helvetica, Arial, sans-serif;
+$fontWeightLight:		300;
+$fontWeightNormal:		400;
+$fontWeightBold:		600;
+
+$fontSizeLarge:		1.8rem;
+$fontSizeMedium:	1.5rem;
+$fontSizeSmall:		1.2rem;
+
+
+/* Colors */
+$baseBlack:			#323031;
+$baseGrey:			#4E4D50;
+$offwhite:			#F9F9F9;
+
+$red:				#EF4F38;
+$yellow:			#F9A533;
+
+$navyBlue:			#0089C9;
+$clearBlue:			#0088F6;
+
+$linkDefault:		#0089C9;
+$linkHover:			#EF4F38;
+
+
+/* Viewports */
+$small:		screen and (min-width:600px);
+$medium:	screen and (min-width:900px);
+$large:		screen and (min-width:1200px);
+
+
+/* central-container */
+$containerDefaultWidth:	80%;
+$containerMaxWidth:		1200px;
+
+
+/* animation */
+$transitionDurationDefault: 0.5s;
