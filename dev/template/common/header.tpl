@@ -39,6 +39,7 @@
 
 			<nav class="nav-main">
 				<ul>
+					<li><a href="http://localhost:8888/index.php?route=custom/about">О нас</a></li>
 					<li><a href="#">Товары</a></li>
 					<li><a href="#">Услуги</a></li>
 					<li><a href="#">Сервис</a></li>
@@ -49,7 +50,7 @@
 			
 			<!-- js for catalogue button -->
 			<script type="text/javascript">
-				var catMenuItem = document.getElementsByClassName('nav-main')[0].getElementsByTagName('a')[0];
+				var catMenuItem = document.getElementsByClassName('nav-main')[0].getElementsByTagName('a')[1];
 				catMenuItem.className += "cat-menu-item";
 			</script>
 
