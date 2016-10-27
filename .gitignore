@@ -59,7 +59,7 @@ opencart/*
 !opencart/drop_opencart-upload_here.md
 
 # track images (i.e. do NOT ignore them)
-!opencart/catalog/view/theme/autoobuv/image/
+!opencart/catalog/view/theme/autoobuv/image/*
 
 #ignore node_modules directory
 node_modules/
