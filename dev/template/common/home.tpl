@@ -161,7 +161,10 @@
 	<section class="reliability">
 		<h1>Наша надежность подтверждена сертификатами...</h1>
 		<img class="cert" src="catalog/view/theme/autoobuv/image/about-cert.png">
-		<p><a href="#">скачать сертификаты <span>(10мб, pdf)</span></a></p>
+			<p>
+				<a href="#">скачать сертификаты <span>(10мб, pdf)</span></a>
+				<img class="arrow-link" src="catalog/view/theme/autoobuv/image/icon-arrow-link.svg">
+			</p>
 	</section>
 	<!-- /.reliability -->
 

@@ -191,6 +191,12 @@
 			text-align: center;
 		}
 
+		p > img {
+			width: 18px;
+			height: 18px;
+			margin-bottom: -5px;
+		}
+
 	} /* reliability */
 
 	.partnership {
