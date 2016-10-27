@@ -27,6 +27,11 @@
 <body class="<?php echo $class; ?>">
 
 	<header>
+		
+		<div class="header-bcg">
+			
+		</div>
+		<!-- /.header-bcg -->
 
 		<div class="header-content">
 
