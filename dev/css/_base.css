@@ -49,6 +49,7 @@ body {
 
 /* Links */
 a {
+	color: $baseGrey;
 	text-decoration: none;
 	border-bottom: 1px solid;
 	transition-duration: $transitionDurationDefault;
