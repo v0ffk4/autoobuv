@@ -172,17 +172,12 @@
 			<img class="cert" src="catalog/view/theme/autoobuv/image/logo-aufine.svg">
 			<img class="cert" src="catalog/view/theme/autoobuv/image/logo-goodtyre.svg">
 			<img class="cert" src="catalog/view/theme/autoobuv/image/logo-headway.svg">
-			
 		</div>
 		<!-- /.logos -->
 	</section>
 	<!-- /.partnership -->
 
-
-
 </section>
 <!-- /.about -->
-
-
 
 <?php echo $footer; ?>
