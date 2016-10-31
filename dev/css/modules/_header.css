@@ -13,6 +13,11 @@ header {
 	z-index: -1;
 }
 
+a.logo {
+	text-decoration: none;
+	border-bottom: none;
+}
+
 .header-content {
 	height: 60px;
 	display: flex;

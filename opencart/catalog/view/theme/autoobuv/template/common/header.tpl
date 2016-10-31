@@ -34,8 +34,9 @@
 		<!-- /.header-bcg -->
 
 		<div class="header-content">
-
-			<img class="logo" src="catalog/view/theme/autoobuv/image/logo.svg">
+			<a class="logo" href="http://localhost:8888/">
+				<img class="logo" src="catalog/view/theme/autoobuv/image/logo.svg">
+			</a>
 
 			<nav class="nav-main">
 				<ul>
