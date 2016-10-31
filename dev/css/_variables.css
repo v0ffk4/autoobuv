@@ -32,9 +32,11 @@ $medium:	screen and (min-width:900px);
 $large:		screen and (min-width:1200px);
 
 
-/* central-container */
+/* layout*/
 $containerDefaultWidth:	80%;
 $containerMaxWidth:		1200px;
+
+$marginDefault: 7.5rem;
 
 
 /* animation */

@@ -4,6 +4,7 @@ html {
 	box-sizing: border-box;
 	font-family: $fontMain;
 	font-weight: $fontWeightLight;
+	overflow-y: scroll;
 }
 
 *,
