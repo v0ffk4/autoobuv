@@ -42,6 +42,7 @@ a.logo {
 		li {
 			display: inline-block;
 			margin: 0 15px;
+			font-size: $fontSizeMedium;
 		}
 
 		a.cat-menu-item {
