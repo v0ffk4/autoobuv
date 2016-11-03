@@ -1,5 +1,11 @@
 <?php echo $header; ?>
 
+<style type="text/css">
+	body {
+		background-color: $red;
+	}
+</style>
+
 <div id="subheader-category">
 
 	<nav class="container">
@@ -12,7 +18,7 @@
 		</ul>
 	</nav>
 	<!-- /.container -->
-	
+
 </div>
 <!-- /#subheader-category -->
 

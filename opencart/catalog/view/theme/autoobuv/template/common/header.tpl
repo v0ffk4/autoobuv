@@ -22,6 +22,18 @@
 
 <link href="catalog/view/theme/autoobuv/stylesheet/stylesheet.css" rel="stylesheet">
 
+<!-- change backgroud on category page
+<?php if (!isset($this->request->get['route']) || (isset($this->request->get['route']) && $this->request->get['route'] == 'custom/category')) { ?>
+
+	<style type="text/css">
+		body {
+			background-color: red;
+		}
+	</style>
+
+<?php } ?>
+-->
+
 </head>
 
 <body class="<?php echo $class; ?>">
