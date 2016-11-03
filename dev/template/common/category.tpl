@@ -91,8 +91,71 @@
 </div>
 <!-- /#subheader-category -->
 
-<div class="container-wide container-items">
+<div class="container-wide container-category">
+		
+	<div class="container-filter-background">
+
+		<div class="container-filter-content">
 	
+			<form>
+
+				<h4><img src="catalog/view/theme/autoobuv/image/icon-filter-tools.svg">Параметры</h4>
+				
+				<fieldset>
+					<label>Тип шины</label>
+					<select>
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<label>Ширина</label>
+					<select>
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<label>Высота</label>
+					<select>
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<label>Диаметр</label>
+					<select>
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</select>
+				</fieldset>
+
+				<h4><img src="catalog/view/theme/autoobuv/image/icon-filter-list.svg">Тип техники</h4>
+
+			</form>
+
+		</div>
+		<!-- /.container-filter-content -->
+
+	</div>
+	<!-- /.container-filter -->
+
+	<div class="container-items">
+		
+	</div>
+	<!-- /.container-items -->
+
 </div>
 <!-- /.container-wide -->
 

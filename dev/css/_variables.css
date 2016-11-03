@@ -25,6 +25,8 @@ $clearBlue:			#0088F6;
 $linkDefault:		#0089C9;
 $linkHover:			#EF4F38;
 
+$shadowColor:		#AAA3A3;
+
 
 /* Viewports */
 $small:		screen and (min-width:600px);

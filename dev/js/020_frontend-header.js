@@ -15,7 +15,7 @@ function headerOpacity() {
 function categorySubmenuDisplay() {
 
 	//скорость фейда
-	var delay = 100;
+	var delay = 300;
 	var fadeSpeed = 50;
 
 
