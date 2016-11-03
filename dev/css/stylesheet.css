@@ -1,6 +1,7 @@
 @import "variables";
 @import "base";
 @import "modules/header";
+@import "modules/subheader";
 @import "modules/footer";
 @import "pages/homepage";
 @import "pages/about";
