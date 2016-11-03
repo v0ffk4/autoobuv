@@ -40,6 +40,8 @@
 				transition-duration: $transitionDurationDefault;
 			}
 
+/* второй уровень меню описывается здесь */	
+
 			div {
 				background-color: white;
 				display: none;
@@ -47,10 +49,12 @@
 
 			ul {
 				display: block;
+				padding-bottom: 10px;
 			}
 
 			li {
 				display: block;
+				padding: 0 25px;
 			}
 
 		} /* li */

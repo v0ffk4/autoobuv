@@ -8,16 +8,34 @@ function headerOpacity() {
 	    }
 	    $('.header-bcg').css({opacity: opac});
 	    $('#subheader-category-bcg').css({opacity: opac});
-	    console.log(opac);
 	});
 
 }
 
 function categorySubmenuDisplay() {
 
-	var subcategoryMenuDiv = $('.subheader-category-item div');
-	
-	$(subcategoryMenuDiv).show();
+	//скорость фейда
+	var delay = 200;
+	var fadeSpeed = 100;
+	var thisDiv = $(this).children('div');
 
+
+	$(".subheader-category-item").mouseenter(function(){
+
+		var thisDiv = $(this).children('div');
+
+		setTimeout(function(){
+			thisDiv.fadeIn(fadeSpeed);
+		}, delay)
+	})
+
+	$(".subheader-category-item").mouseleave(function(){
+
+		var thisDiv = $(this).children('div');
+
+		setTimeout(function(){
+			thisDiv.fadeOut(fadeSpeed);
+		}, delay)
+	})
 
 }

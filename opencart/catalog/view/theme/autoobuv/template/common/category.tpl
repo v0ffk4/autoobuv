@@ -16,7 +16,7 @@
 				</svg>
 				<div>
 					<ul>
-						<li>Позиция 1</li>
+						<li>Четырехпиздастворчатый пятихуевый залупоносец</li>
 						<li>Позиция 2</li>
 						<li>Позиция 3</li>
 						<li>Позиция 4</li>
@@ -29,6 +29,15 @@
 				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 4" style="enable-background:new 0 0 8 4;" xml:space="preserve">
 					<polyline points="0.5,0.5 4,3 7.5,0.5 "/>
 				</svg>
+				<div>
+					<ul>
+						<li>Позиция 1</li>
+						<li>Позиция 2</li>
+						<li>Позиция 3</li>
+						<li>Позиция 4</li>
+						<li>Позиция 5</li>
+					</ul>
+				</div>
 			</li>
 			<li class="subheader-category-item">
 				Для спецтехники
