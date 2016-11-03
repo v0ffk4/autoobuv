@@ -3,6 +3,10 @@
 	position: fixed;
 	top: 60px;
 
+	nav {
+		border-top: 1px solid $lightGrey;
+	}
+
 	ul {
 		display: flex;
 		justify-content: space-between;

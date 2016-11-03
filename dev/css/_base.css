@@ -24,7 +24,7 @@ body {
 	margin: 0;
 	padding: 0;
 	color: $baseBlack;
-	background-color: $categoryBcg;
+	background-color: $offwhite;
 	font-family: $fontMain;
 	font-weight: $fontWeightLight;
 	font-size:1.6rem;

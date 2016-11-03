@@ -7,7 +7,7 @@ header {
 
 .header-bcg {
 	height: 60px;
-	background-color: #F9F9F9;
+	background-color: $offwhite;
 	position: fixed;
 	opacity: 0;
 	width: 100%;
