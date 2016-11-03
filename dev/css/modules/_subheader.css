@@ -2,8 +2,16 @@
 	width: 100%;
 	position: fixed;
 	top: 60px;
-	background-color: red;
-	
 
+	ul {
+		display: flex;
+		justify-content: space-between;
+		font-size: $fontSizeMedium;
+		margin: 0;
+	}
 
-}
+	li {
+		display: inline;
+	}
+
+} /* subheader-category */

@@ -1,6 +1,7 @@
 <?php echo $header; ?>
 
 <div id="subheader-category">
+
 	<nav class="container">
 		<ul>
 			<li>Для грузовиков</li>
@@ -14,6 +15,5 @@
 	
 </div>
 <!-- /#subheader-category -->
-
 
 <?php echo $footer; ?>
