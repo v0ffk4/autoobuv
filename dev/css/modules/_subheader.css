@@ -1,14 +1,15 @@
 #subheader-category {
 	width: 100%;
 	position: fixed;
-	top: 60px;
+	top: 70px;
 
 	nav {
-		border-top: 1px solid $lightGrey;
+
 	}
 
 	ul {
 		display: flex;
+		color: $baseGrey;
 		justify-content: space-between;
 		font-size: $fontSizeMedium;
 		margin: 0;
@@ -17,6 +18,27 @@
 
 	li {
 		display: inline;
+		cursor: pointer;
+		transition-duration: $transitionDurationDefault;
+
+		svg {
+			width: 8px;
+			height: 4px;
+			margin: 0 0 2px 2px;
+			fill:none;
+			stroke:#4D4D4F;
+			stroke-width:1.5;
+			transition-duration: $transitionDurationDefault;
+		}
+
+	}
+
+	li:hover {
+		color: $red;
+
+		svg {
+			stroke: $red;
+		}
 	}
 
 } /* subheader-category */
