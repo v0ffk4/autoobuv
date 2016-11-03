@@ -15,13 +15,13 @@ function headerOpacity() {
 function categorySubmenuDisplay() {
 
 	//скорость фейда
-	var delay = 200;
+	var delay = 100;
 	var fadeSpeed = 100;
-	var thisDiv = $(this).children('div');
 
 
-	$(".subheader-category-item").mouseenter(function(){
+	$('.subheader-category-item').mouseenter(function(){
 
+		$('.subheader-category-item div').hide();
 		var thisDiv = $(this).children('div');
 
 		setTimeout(function(){
@@ -29,13 +29,13 @@ function categorySubmenuDisplay() {
 		}, delay)
 	})
 
-	$(".subheader-category-item").mouseleave(function(){
+	$('.subheader-category-item').mouseleave(function(){
 
 		var thisDiv = $(this).children('div');
 
 		setTimeout(function(){
 			thisDiv.fadeOut(fadeSpeed);
-		}, delay)
+		}, 0)
 	})
 
 }
