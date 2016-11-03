@@ -48,6 +48,12 @@ body {
 	padding-top: 1px;
 }
 
+.container-wide {
+	width: 90vw;
+	margin: 0 auto;
+	padding-top: 1px;
+}
+
 
 /* Links */
 a {

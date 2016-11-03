@@ -16,12 +16,15 @@ function categorySubmenuDisplay() {
 
 	//скорость фейда
 	var delay = 100;
-	var fadeSpeed = 100;
+	var fadeSpeed = 50;
 
 
 	$('.subheader-category-item').mouseenter(function(){
 
-		$('.subheader-category-item div').hide();
+		$('li div').each(function(){
+			$(this).hide(0);
+		})
+
 		var thisDiv = $(this).children('div');
 
 		setTimeout(function(){
@@ -31,10 +34,14 @@ function categorySubmenuDisplay() {
 
 	$('.subheader-category-item').mouseleave(function(){
 
+		$('li div').each(function(){
+			$(this).hide(0);
+		})
+
 		var thisDiv = $(this).children('div');
 
 		setTimeout(function(){
-			thisDiv.fadeOut(fadeSpeed);
+			thisDiv.fadeOut(0);
 		}, 0)
 	})
 

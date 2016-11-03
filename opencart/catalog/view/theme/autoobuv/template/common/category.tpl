@@ -91,9 +91,9 @@
 </div>
 <!-- /#subheader-category -->
 
-<div class="category-test container" style="margin-top:120px; background-color: red; height: 500px;">
-	<p>hello</p>
+<div class="container-wide container-items">
+	
 </div>
-<!-- /.category-test -->
+<!-- /.container-wide -->
 
 <?php echo $footer; ?>

@@ -1,5 +1,5 @@
 #subheader-category-bcg {
-	height: 60px;
+	height: 40px;
 	background-color: $offwhite;
 	position: fixed;
 	top: 60px;
@@ -9,7 +9,6 @@
 
 /* первый уровень меню описывается здеся */
 #subheader-category {
-	height: 60px;
 	width: 100%;
 	position: fixed;
 	top: 60px;
@@ -30,6 +29,7 @@
 			cursor: pointer;
 			transition-duration: $transitionDurationDefault;
 			position: relative;
+			padding: 5px 0 15px 0;
 
 
 			svg {
@@ -46,9 +46,10 @@
 
 			div {
 				position: absolute;
-				background-color: white;
+				top: 39px;
+				background-color: $offwhite;
 				display: none;
-				min-width: 100%; 
+				min-width: 100%;
 			}
 
 			ul {
@@ -73,6 +74,5 @@
 		} /* li:hover */
 
 	} /* nav#subheader */
-
-
+	
 } /* subheader-category */
