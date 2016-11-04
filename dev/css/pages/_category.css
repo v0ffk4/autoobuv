@@ -104,11 +104,61 @@ $filterWidth:			230px;
 	}
 
 	.category-items {
+		padding: 10px 25px;
 		height: 500px;
 		margin-left: calc($filterWidth + $filterMargin + 2.5vw);
 		margin-right: 2.5vw;
 		background-color: white;
-	}
+		
+		h2 {
+			margin: 0 auto;
+			text-align: center;
+			font-weight: $fontWeightBold;
+			position: relative;
+			
+			img {
+				width: 18px;
+				height: 26px;
+			}
+
+			span {
+				position: absolute;
+				right: 0;
+				bottom: -3px;
+				font-weight: $fontWeightLight;
+				font-size: $fontSizeMedium;
+				font-style: normal;
+
+				a {
+					color: $clearBlue;
+					border-bottom: none;
+
+					svg {
+						display: inline;
+						fill: none;
+						stroke: $clearBlue;
+						stroke-width: 1;
+						width: 16px;
+						height: 16px;
+						margin: 0 2px -3px 0;
+						transition-duration: $transitionDurationDefault;
+					}
+
+				} /* a */
+
+				a:hover {
+					color: $red;
+
+					svg {
+						stroke: $red;
+					}
+				}
+
+			} /* span */
+
+		} /* h2 */
+
+	} /* category-items */
 
 } /* category */
 

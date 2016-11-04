@@ -205,6 +205,19 @@
 
 
 	<div class="category-items">
+		<h2>
+			<img src="catalog/view/theme/autoobuv/image/icon-header-icecream.svg">
+			Акции
+			<span>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
+						<g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="7.5" cy="7.5" r="7"/><line class="cls-1" x1="7.5" y1="12.5" x2="7.5" y2="6.5"/><line class="cls-1" x1="7.5" y1="5.5" x2="7.5" y2="3.5"/>
+						</g>
+					</svg>
+					подробнее
+				</a>
+			</span>
+		</h2>
 		
 	</div>
 	<!-- /.category-items -->
