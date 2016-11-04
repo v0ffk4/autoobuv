@@ -193,6 +193,15 @@
 	<!-- /.container-filter-background -->
 	<!-- end filter -->
 
+	<nav class="breadcrumbs">
+		<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-home.svg">
+		<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
+		<a href="#">Товары</a>
+		<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
+		Каталог
+	</nav>
+	<!-- /.breadcrumbs -->
+
 	<div class="container-wide">
 		<div class="filter-placeholder">
 			<p>sfsdfdsk;fsd</p>

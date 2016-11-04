@@ -1,4 +1,6 @@
-$categoryHeaderHeight: 15rem;
+$categoryHeaderHeight:	18rem;
+$filterMargin:			25px;
+$filterWidth:			230px;
 
 #category {
 	padding-top: 1px;
@@ -7,7 +9,7 @@ $categoryHeaderHeight: 15rem;
 		position: fixed;
 		top: $categoryHeaderHeight;
 		left: 2.5vw;
-		width: 230px;	
+		width: $filterWidth;
 		background-color: $offwhite;
 		opacity: .8;
 		border-radius: 3px;
@@ -85,8 +87,23 @@ $categoryHeaderHeight: 15rem;
 
 	} /* .container-filter-content */
 
+	nav.breadcrumbs {
+		
+		display: block;
+		margin-top: calc($categoryHeaderHeight - 45px);
+		margin-left: calc(2.5vw + $filterWidth + $filterMargin);
+		margin-bottom: 16px;
+		font-size: $fontSizeMedium;
+		
+		img {
+			width: 14px;
+			height: 13px;
+			margin: 0 5px -3px 5px;
+		}
+
+	}
+
 	.container-wide {
-		margin-top: $categoryHeaderHeight;
 		height: 500px;
 		background-color: red;
 		display: flex;
@@ -96,7 +113,7 @@ $categoryHeaderHeight: 15rem;
 		width: 230px;
 		height: 500px;
 		background-color: green;
-		margin-right: 25px;
+		margin-right: $filterMargin;
 		flex-shrink: 0;
 	}
 
