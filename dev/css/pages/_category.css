@@ -103,22 +103,10 @@ $filterWidth:			230px;
 
 	}
 
-	.container-wide {
-		height: 500px;
-		background-color: red;
-		display: flex;
-	}
-
-	.filter-placeholder {
-		width: 230px;
-		height: 500px;
-		background-color: green;
-		margin-right: $filterMargin;
-		flex-shrink: 0;
-	}
-
 	.category-items {
-		width: 100%;
+		height: 500px;
+		margin-left: calc($filterWidth + $filterMargin + 2.5vw);
+		margin-right: 2.5vw;
 		background-color: white;
 	}
 

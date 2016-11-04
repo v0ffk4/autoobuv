@@ -202,19 +202,14 @@
 	</nav>
 	<!-- /.breadcrumbs -->
 
-	<div class="container-wide">
-		<div class="filter-placeholder">
-			<p>sfsdfdsk;fsd</p>
-		</div>
-		<!-- /.filter-placeholder -->
 
-		<div class="category-items">
-			
-		</div>
-		<!-- /.category-items -->
+
+	<div class="category-items">
 		
 	</div>
-	<!-- /.container-wide -->
+	<!-- /.category-items -->
+		
+
 
 </section>
 <!-- /#category -->
