@@ -1,9 +1,11 @@
 $categoryHeaderHeight: 15rem;
 
 #category {
+	padding-top: 1px;
 
 	.container-filter-background {
 		position: fixed;
+		top: $categoryHeaderHeight;
 		left: 2.5vw;
 		width: 230px;	
 		background-color: $offwhite;
@@ -99,7 +101,6 @@ $categoryHeaderHeight: 15rem;
 	}
 
 	.category-items {
-		margin-top: -3rem;
 		width: 100%;
 		background-color: white;
 	}
