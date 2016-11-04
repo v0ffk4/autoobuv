@@ -204,7 +204,7 @@
 
 
 
-	<div class="category-items">
+	<div class="category-items-container">
 		<h2>
 			<img src="catalog/view/theme/autoobuv/image/icon-header-icecream.svg">
 			Акции
@@ -218,9 +218,14 @@
 				</a>
 			</span>
 		</h2>
+
+		<div class="category-items">
+			
+		</div>
+		<!-- /.category-items -->
 		
 	</div>
-	<!-- /.category-items -->
+	<!-- /.category-items-container -->
 		
 
 
