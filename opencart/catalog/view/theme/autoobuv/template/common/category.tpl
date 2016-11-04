@@ -91,6 +91,16 @@
 </div>
 <!-- /#subheader-category -->
 
+<nav class=" container-wide breadcrumbs">
+	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-home.svg">
+	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
+	<a href="#">Товары</a>
+	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
+	Каталог
+
+</nav>
+<!-- /.breadcrumbs -->
+
 <div class="container-wide container-category">
 		
 	<div class="container-filter-background">
@@ -142,6 +152,45 @@
 				</fieldset>
 
 				<h4><img src="catalog/view/theme/autoobuv/image/icon-filter-list.svg">Тип техники</h4>
+
+				<fieldset>
+					<label>Тип техники</label>
+					<select>
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<label>Производитель техники</label>
+					<select>
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</select>
+				</fieldset>
+
+				<fieldset>
+					<label>Модель техники</label>
+					<select>
+						<option value="volvo">Volvo</option>
+						<option value="saab">Saab</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+					</select>
+				</fieldset>
+
+				<button type="submit">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.24 11.24">
+						<g>
+							<circle class="cls-1" cx="6.23" cy="5" r="4.5" transform="translate(-1.71 5.87) rotate(-45)"/><line class="cls-1" x1="0.35" y1="10.88" x2="3.05" y2="8.19"/>
+						</g>
+					</svg>
+					Найти
+				</button>
 
 			</form>
 

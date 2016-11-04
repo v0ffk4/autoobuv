@@ -22,11 +22,17 @@ $yellow:			#F9A533;
 $navyBlue:			#0089C9;
 $clearBlue:			#0088F6;
 
+$lightGreen:		#83C02C;
+$green:				#00C17A;
+
 $linkDefault:		#0089C9;
 $linkHover:			#EF4F38;
 
 $shadowColor:		#AAA3A3;
 
+
+/* SVG */
+$strokeWidth: 1.5;
 
 /* Viewports */
 $small:		screen and (min-width:600px);

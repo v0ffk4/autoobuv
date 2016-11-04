@@ -1,11 +1,28 @@
+nav.breadcrumbs {
+	margin-top: 15rem;
+	font-size: $fontSizeMedium;
+
+	img {
+		width: 14px;
+		height: 13px;
+		margin: 0 10px;
+	}
+
+	img:first-of-type {
+    	margin: 0;
+	}	
+
+}
+
 .container-category {
 	display: flex;
-	margin-top: 15rem;
+	margin-top: 2rem;
 	align-items: top;
 }
 
 .container-filter-background {
 	width: 230px;
+	height: 530px;
 	background-color: $offwhite;
 	opacity: .8;
 	border-radius: 3px;
@@ -53,10 +70,34 @@
 		width: 100%;
 	}
 
+	button {
+		cursor: pointer;
+		display: block;
+		margin: 20px auto 0 auto;
+		width: 90px;
+		height: 28px;
+		border: none;
+		border-radius: 3px;
+		background-color: $clearBlue;
+		color: white;
+		transition-duration: $transitionDurationDefault;
 
+		svg {
+			width: 12px;
+			height: 11px;
+			fill: none;
+			stroke: #ffffff;
+			stroke-miterlimit: 10;
+			stroke-width: $strokeWidth;
+			margin: 0 3px -2px ; 
+		}
+	}
 
-}
+	button:hover {
+		background-color: $lightGreen;
+	}
 
+} /* .container-filter-content */
 
 .container-items {
 	width: 100%;
