@@ -221,6 +221,76 @@
 
 		<div class="category-items">
 			
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_01.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_02.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_03.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_04.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_05.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
 		</div>
 		<!-- /.category-items -->
 		
