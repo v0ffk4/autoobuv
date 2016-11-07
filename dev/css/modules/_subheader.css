@@ -1,78 +1,53 @@
-#subheader-category-bcg {
-	height: 40px;
-	background-color: $red;
+#subheader-category-container {
 	position: fixed;
 	top: 60px;
-	opacity: 1;
 	width: 100%;
+
+	ul {
+		display: flex;
+		color: $baseGrey;
+		justify-content: space-between;
+		align-items: center;
+		font-size: $fontSizeMedium;
+		padding: 0;
+	} /* ul */
+
+	li {
+		display: inline;
+		cursor: pointer;
+		transition-duration: $transitionDurationDefault;
+		padding: 5px;
+
+
+		svg {
+			width: 8px;
+			height: 4px;
+			margin: 0 0 2px 2px;
+			fill:none;
+			stroke:#4D4D4F;
+			stroke-width:1.5;
+			transition-duration: $transitionDurationDefault;
+		}
+
+	} /* li.subheader-category-item */
+	
+
+
 }
 
-/* первый уровень меню описывается здеся */
-#subheader-category {
-	width: 100%;
-	position: fixed;
-	top: 60px;
 
-	nav#subheader {
-
-		ul {
-			display: flex;
-			color: $baseGrey;
-			justify-content: space-between;
-			font-size: $fontSizeMedium;
-			margin: 0;
-			padding: 0;
-		} /* ul */
-
-		li.subheader-category-item  {
-			display: inline;
-			cursor: pointer;
-			transition-duration: $transitionDurationDefault;
-			position: relative;
-			padding: 5px 0 15px 0;
-
-
-			svg {
-				width: 8px;
-				height: 4px;
-				margin: 0 0 2px 2px;
-				fill:none;
-				stroke:#4D4D4F;
-				stroke-width:1.5;
-				transition-duration: $transitionDurationDefault;
-			}
-
-/* второй уровень меню описывается здеся */
-
-			div {
-				position: absolute;
-				top: 39px;
-				background-color: $offwhite;
-				
-				min-width: 100%;
-			}
-
-			ul {
-				display: block;
-				padding-bottom: 10px;
-			}
-
-			li {
-				display: block;
-				padding: 10px 25px;
-				line-height: 140%;
-			}
-
-		} /* li */
-
-		li:hover {
-			color: $red;
-
-			svg {
-				stroke: $red;
-			}
-		} /* li:hover */
-
-	} /* nav#subheader */
+nav.sublevel-01 {
 	
-} /* subheader-category */
+
+} 
+
+nav.sublevel-02 {
+	background-color: $clearBlue;
+
+	ul {
+	}
+
+	li {
+		color: white;
+	}
+} /* nav .sublevel-01 */

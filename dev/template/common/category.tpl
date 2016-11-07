@@ -1,97 +1,67 @@
 <?php echo $header; ?>
 
 <section id="category">
+	
 
-	<div id="subheader-category-bcg">
+	<div id="subheader-category-container">
 		
-	</div>
-	<!-- /#subheader-category-bcg -->
-
-	<div id="subheader-category">
-
-		<nav id="subheader" class="container">
-			<ul>
-				<li class="subheader-category-item">
+		<nav class="sublevel-01">
+			<ul class="container">
+				<li>
 					Для грузовиков
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 4" style="enable-background:new 0 0 8 4;" xml:space="preserve">
 						<polyline points="0.5,0.5 4,3 7.5,0.5 "/>
 					</svg>
-					<div>
-						<ul>
-							<li>Четырехпиздастворчатый пятихуевый залупоносец</li>
-							<li>Охуевший в триебучем пидорстве</li>
-							<li>Позиция 3</li>
-							<li>Позиция 4</li>
-							<li>Позиция 5</li>
-						</ul>
-					</div>
 				</li>
-				<li class="subheader-category-item">
+
+				<li>
 					Для малых грузовиков
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 4" style="enable-background:new 0 0 8 4;" xml:space="preserve">
 						<polyline points="0.5,0.5 4,3 7.5,0.5 "/>
 					</svg>
-					<div>
-						<ul>
-							<li>Позиция 1</li>
-							<li>Позиция 2</li>
-							<li>Позиция 3</li>
-							<li>Позиция 4</li>
-							<li>Позиция 5</li>
-						</ul>
-					</div>
 				</li>
-				<li class="subheader-category-item">
+				<li>
 					Для спецтехники
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 4" style="enable-background:new 0 0 8 4;" xml:space="preserve">
 						<polyline points="0.5,0.5 4,3 7.5,0.5 "/>
 					</svg>
-					<div>
-						<ul>
-							<li>Позиция 1</li>
-							<li>Позиция 2</li>
-							<li>Позиция 3</li>
-							<li>Позиция 4</li>
-							<li>Позиция 5</li>
-						</ul>
-					</div>
 				</li>
-				<li class="subheader-category-item">
+				<li>
 					Камеры и ободные ленты
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 4" style="enable-background:new 0 0 8 4;" xml:space="preserve">
 						<polyline points="0.5,0.5 4,3 7.5,0.5 "/>
 					</svg>
-					<div>
-						<ul>
-							<li>Позиция 1</li>
-							<li>Позиция 2</li>
-							<li>Позиция 3</li>
-							<li>Позиция 4</li>
-							<li>Позиция 5</li>
-						</ul>
-					</div>
 				</li>
-				<li class="subheader-category-item">
+				<li>
 					Колесные диски
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8 4" style="enable-background:new 0 0 8 4;" xml:space="preserve">
 						<polyline points="0.5,0.5 4,3 7.5,0.5 "/>
 					</svg>
-					<div>
-						<ul>
-							<li>Позиция 1</li>
-							<li>Позиция 2</li>
-							<li>Позиция 3</li>
-							<li>Позиция 4</li>
-							<li>Позиция 5</li>
-						</ul>
-					</div>
 				</li>
 			</ul>
 		</nav>
-		<!-- /.container -->
+		<!-- /.sublevel-01 container -->
+
+		<nav class="sublevel-02">
+			<ul class="container">
+				<li>Positon 1-1</li>
+				<li>Positon 1-2</li>
+				<li>Positon 1-3</li>
+				<li>Positon 1-4</li>
+				<li>Positon 1-5</li>
+			</ul>
+			<ul class="container">
+				<li>Positon 2-1</li>
+				<li>Positon 2-2</li>
+				<li>Positon 2-3</li>
+				<li>Positon 2-4</li>
+				<li>Positon 2-5</li>
+			</ul>
+		</nav>
+		<!-- /.sublevel-01 container -->
 
 	</div>
-	<!-- /#subheader-category -->
+	<!-- /.subheader-category-container -->
 
 	<!-- begin filter -->
 	<!-- separate background for transparency effect -->	
