@@ -16,7 +16,7 @@ function categorySubmenu() {
 
 		} else {
 
-			//меняем маркер
+			//меняем маркер на кликнутый
 			currentMenuMarker = $(this).index();
 			//ловим нужный подпункт
 			var target = $('.sublevel-02 ul')[currentMenuMarker];
@@ -28,9 +28,7 @@ function categorySubmenu() {
 		}
 
 		
-
-
-
-	});
+	}); 
+	//end onclick
 
 }
