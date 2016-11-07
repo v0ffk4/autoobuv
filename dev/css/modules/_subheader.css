@@ -11,7 +11,6 @@
 @define-mixin mixin-li {
 	display: inline;
 	cursor: pointer;
-	transition-duration: $transitionDurationDefault;
 	padding: 5px;	
 }
 
@@ -61,6 +60,7 @@ nav.sublevel-02 {
 	li {
 		@mixin mixin-li;
 		color: white;
+		opacity: 0;
 	}
 
 } /* nav.sublevel-02 */
