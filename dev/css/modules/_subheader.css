@@ -1,22 +1,36 @@
+/* define mixins */
+@define-mixin mixin-ul {
+	display: flex;
+	color: $baseGrey;
+	justify-content: space-between;
+	align-items: center;
+	font-size: $fontSizeMedium;
+	padding: 0;
+}
+
+@define-mixin mixin-li {
+	display: inline;
+	cursor: pointer;
+	transition-duration: $transitionDurationDefault;
+	padding: 5px;	
+}
+
+/* end mixins */
+
+
 #subheader-category-container {
 	position: fixed;
 	top: 60px;
 	width: 100%;
+} /* #subheader-category-container */
 
+nav.sublevel-01 {
 	ul {
-		display: flex;
-		color: $baseGrey;
-		justify-content: space-between;
-		align-items: center;
-		font-size: $fontSizeMedium;
-		padding: 0;
+		@mixin mixin-ul;
 	} /* ul */
 
 	li {
-		display: inline;
-		cursor: pointer;
-		transition-duration: $transitionDurationDefault;
-		padding: 5px;
+		@mixin mixin-li;
 
 
 		svg {
@@ -30,24 +44,23 @@
 		}
 
 	} /* li.subheader-category-item */
-	
-
-
 }
-
-
-nav.sublevel-01 {
-	
-
-} 
 
 nav.sublevel-02 {
 	background-color: $clearBlue;
 
 	ul {
+		@mixin mixin-ul;
+		display: none;
+	}
+
+	ul.active {
+		display: flex;
 	}
 
 	li {
+		@mixin mixin-li;
 		color: white;
 	}
-} /* nav .sublevel-01 */
+
+} /* nav.sublevel-02 */
