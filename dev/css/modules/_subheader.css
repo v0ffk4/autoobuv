@@ -1,6 +1,6 @@
 #subheader-category-bcg {
 	height: 40px;
-	background-color: $offwhite;
+	background-color: $red;
 	position: fixed;
 	top: 60px;
 	opacity: 1;
@@ -48,7 +48,7 @@
 				position: absolute;
 				top: 39px;
 				background-color: $offwhite;
-				display: none;
+				
 				min-width: 100%;
 			}
 
