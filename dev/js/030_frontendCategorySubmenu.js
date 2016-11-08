@@ -35,7 +35,7 @@ function categorySubmenu() {
 		$(navUl[current]).addClass('active');
 		$(navUl[current]).show();
 
-	} //end showUl
+	} //end showNavUl
 
 
 	function hideNavUl() {
@@ -44,7 +44,21 @@ function categorySubmenu() {
 		$(navUl).removeClass('active');
 		$(navUl).hide();
 
-	} //end showUl
+	} //end hideNavUl
+
+
+	function showNavLi(){
+
+		tlShowNavLi = new TimelineMax();
+
+		tlShowNavLi
+				.set( navLi, { opacity: 0 } )
+				.set( navLi, { x: '+=40' } )
+				.to( navLi, 1, { opacity: 1 } )
+				.to( navLi, 0.5, { x: '-=40' }, '-=1' );
+
+
+	}
 
 
 	$('.sublevel-01 li').click(function(){
@@ -66,7 +80,7 @@ function categorySubmenu() {
 
 			showNavbar();
 			showNavUl($(this).index());
-			
+			showNavLi();
 
 		}
 

@@ -62,7 +62,7 @@ nav.sublevel-02 {
 	li {
 		@mixin mixin-li;
 		color: white;
-		opacity: 1;
+		opacity: 0;
 	}
 
 } /* nav.sublevel-02 */
