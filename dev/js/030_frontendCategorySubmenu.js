@@ -4,6 +4,7 @@ function categorySubmenu() {
 	var currentMenuMarker = '-1';
 
 	//handles for GSAP
+	var navBar = $('.sublevel-02')
 	var navUl = $('.sublevel-02 ul');
 	var navLi = $('.sublevel-02 li');
 
@@ -15,6 +16,12 @@ function categorySubmenu() {
 			//закрываем
 			$(navUl).removeClass("active");
 
+			//
+			tlHide = new TimelineMax();
+
+			tlHide
+				.to( navLi, 0.25, { opacity: 0 } )
+
 			//сбрасываем маркер
 			currentMenuMarker = -1;
 
@@ -22,21 +29,26 @@ function categorySubmenu() {
 
 			//меняем маркер на кликнутый
 			currentMenuMarker = $(this).index();
-			//ловим нужный подпункт
-			var currentMenu = $('.sublevel-02 ul')[currentMenuMarker];
 
-			$('.sublevel-02 ul').removeClass("active");
-			$(currentMenu).addClass("active");
-			var currentMenuListItems = $('.active li');
+			//ловим нужный подпункт
+			var currentUl = $('.sublevel-02 ul')[currentMenuMarker];
+
+			//активируем класс
+			$(navUl).removeClass("active");
+			$(currentUl).addClass("active");
+
+			var currentLi = $('.active li');
+
 
 			//GSAP
 
-			tl = new TimelineMax();
+			tlShow = new TimelineMax();
 
-			tl
-				.to( currentMenuListItems, 0.25, { opacity: 0 } )
-				.to( currentMenuListItems, 0.5, { opacity: 1 } );
-
+			tlShow
+				.to( currentLi, 0, { opacity: 0 } )
+				.to( currentLi, 0, { x: '+=25' } )
+				.to( currentLi, 0.75, { x: '-=25' } )
+				.to( currentLi, 0.75, { opacity: 1 }, -0.75 );
 
 		}
 
