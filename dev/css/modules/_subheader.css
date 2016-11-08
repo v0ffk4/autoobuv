@@ -55,10 +55,14 @@ nav.sublevel-02 {
 		display: none;
 	}
 
+	ul.active {
+		display: flex
+	}
+
 	li {
 		@mixin mixin-li;
 		color: white;
-		opacity: 0;
+		opacity: 1;
 	}
 
 } /* nav.sublevel-02 */
