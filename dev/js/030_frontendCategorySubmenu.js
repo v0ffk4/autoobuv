@@ -55,7 +55,7 @@ function categorySubmenu() {
 				.set( navLi, { opacity: 0 } )
 				.set( navLi, { x: '+=40' } )
 				.to( navLi, 1, { opacity: 1 } )
-				.to( navLi, 0.5, { x: '-=40' }, '-=1' );
+				.to( navLi, 0.5, { x: '-=40', ease: Power1.easeOut }, '-=1' );
 
 
 	}
