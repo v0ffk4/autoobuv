@@ -73,9 +73,28 @@ function categorySubmenu() {
 
 		$('.sublevel-01 li').removeClass('active');
 
-
 	} //end hiliteHide
 
+	//потому что через CSS дергается
+	function hoverLi(){
+
+		$(navLi).mouseenter(function(){
+
+			hoverTarget = $(this);
+			TweenLite.to(hoverTarget, 0.5, {className:"+=hover", ease: Power1.easeOut });
+
+		});
+
+		$(navLi).mouseleave(function(){
+
+			hoverTarget = $(this);
+			TweenLite.to(hoverTarget, 0.5, {className:"-=hover", ease: Power1.easeIn });
+
+		});
+
+	}
+
+	hoverLi();
 
 	$('.sublevel-01 li').click(function(){
 
@@ -99,7 +118,6 @@ function categorySubmenu() {
 			showNavbar();
 			showNavUl($(this).index());
 			showNavLi();
-
 
 		}
 

@@ -59,6 +59,7 @@ nav.sublevel-02 {
 	background-color: $clearBlue;
 	min-height: 38px;
 	opacity: 0;
+	display: flex;
 
 	ul {
 		@mixin mixin-ul;
@@ -66,12 +67,23 @@ nav.sublevel-02 {
 	}
 
 	ul.active {
-		display: flex
+		display: flex;
 	}
 
 	li {
 		@mixin mixin-li;
+		padding: 0 5px;
+		border-radius: 3px;
+		line-height: 1.8rem;
 		color: white;
+		opacity: 0;
+	}
+
+	li.hover {
+		@mixin mixin-li;
+		padding: 0 5px;
+		color: $clearBlue;
+		background-color: $offwhite;
 		opacity: 0;
 	}
 
