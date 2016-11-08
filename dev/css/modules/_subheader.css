@@ -47,14 +47,12 @@ nav.sublevel-01 {
 
 nav.sublevel-02 {
 	background-color: $clearBlue;
+	min-height: 38px;
+	opacity: 0;
 
 	ul {
 		@mixin mixin-ul;
 		display: none;
-	}
-
-	ul.active {
-		display: flex;
 	}
 
 	li {
