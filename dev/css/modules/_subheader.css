@@ -33,16 +33,26 @@ nav.sublevel-01 {
 
 
 		svg {
-			width: 8px;
-			height: 4px;
-			margin: 0 0 2px 2px;
+			width: 4px;
+			height: 8px;
+			margin: 0 0 0 2px;
 			fill:none;
 			stroke:#4D4D4F;
 			stroke-width:1.5;
 			transition-duration: $transitionDurationDefault;
 		}
 
-	} /* li.subheader-category-item */
+	} /* li */
+
+	li.active {
+		color: $clearBlue;
+
+		svg {
+			transform: rotate(90deg);
+			stroke: $clearBlue;
+		}
+
+	}
 }
 
 nav.sublevel-02 {

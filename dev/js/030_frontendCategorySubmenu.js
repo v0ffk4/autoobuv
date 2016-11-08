@@ -61,16 +61,33 @@ function categorySubmenu() {
 	}
 
 
+	function hiliteShow(current){
+
+		$('.sublevel-01 li').removeClass('active');
+		$(current).addClass('active');
+
+	} //end hiliteShow
+
+
+	function hiliteHide(){
+
+		$('.sublevel-01 li').removeClass('active');
+
+
+	} //end hiliteHide
+
+
 	$('.sublevel-01 li').click(function(){
 
 		//если кликнутый пункт равен текущему, то закрываем нафик субменю
 		if( $(this).index() == currentMenuMarker ) {
 
-			//сбрасываем маркер
-			currentMenuMarker = -1;
-
+			hiliteHide();
 			hideNavUl();
 			hideNavbar();
+
+			//сбрасываем маркер
+			currentMenuMarker = -1;
 			
 
 		} else {
@@ -78,9 +95,11 @@ function categorySubmenu() {
 			//меняем маркер на кликнутый
 			currentMenuMarker = $(this).index();
 
+			hiliteShow($(this));
 			showNavbar();
 			showNavUl($(this).index());
 			showNavLi();
+
 
 		}
 
