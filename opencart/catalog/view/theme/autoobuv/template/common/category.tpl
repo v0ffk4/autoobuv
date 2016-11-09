@@ -397,6 +397,21 @@
 				<!-- /.section -->
 
 				<button type="submit">
+					
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+						<defs>
+							<style>
+								.icon-form-plain-cls-1{fill:none;}
+								.icon-form-plain-cls-2{fill:#fff;}
+							</style>
+						</defs>
+						<title>icon-form-plain</title>
+						<g>
+							<rect class="icon-form-plain-cls-1" width="14" height="14"/>
+							<polygon class="icon-form-plain-cls-2" points="6 9.03 6 13.03 8 10 13 13 14 0 0 5 4 8 12 3 6 9.03"/>
+						</g>
+					</svg>
+
 					Отправить
 				</button>				
 			</form>

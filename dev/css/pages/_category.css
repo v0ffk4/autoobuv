@@ -227,6 +227,10 @@ $filterWidth:			230px;
 
 		} /* button */
 
+		button:hover {
+			background-color: $lightGreen;
+		}
+
 	} /* category-item */
 
 	
@@ -273,10 +277,18 @@ $filterWidth:			230px;
 			resize: none;
 		}
 
-		button {
-			
+		button {			
 			@mixin category-button;
 
+			svg {
+				width: 14px;
+				height: 14px;
+				margin: 0 2px -4px 0
+			}
+		}
+
+		button:hover {
+			background-color: $lightGreen;
 		}
 
 	} /* /section.category-contact-form */
