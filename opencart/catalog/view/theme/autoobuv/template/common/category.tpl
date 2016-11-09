@@ -56,11 +56,20 @@
 				<li>14.00-24</li>
 			</ul>
 			<ul class="container">
-				<li>Positon 2-1</li>
-				<li>Positon 2-2</li>
-				<li>Positon 2-3</li>
-				<li>Positon 2-4</li>
-				<li>Positon 2-5</li>
+				<li>17.5-25</li>
+				<li>20.5-25</li>
+				<li>14.00-24</li>
+			</ul>
+			<ul class="container">
+				<li>12R22.5</li>
+				<li>315/70R22.5</li>
+				<li>12.00R20</li>
+				<li>315/80R22.5</li>
+				<li>385/65R22.5</li>
+				<li>10.00R20</li>
+				<li>11.00R20</li>
+				<li>295/80R22.5</li>
+				<li>13R22.5</li>
 			</ul>
 		</nav>
 		<!-- /.sublevel-01 container -->
@@ -183,6 +192,100 @@
 		<h2>
 			<img src="catalog/view/theme/autoobuv/image/icon-header-icecream.svg">
 			Акции
+			<span>
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
+						<g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="7.5" cy="7.5" r="7"/><line class="cls-1" x1="7.5" y1="12.5" x2="7.5" y2="6.5"/><line class="cls-1" x1="7.5" y1="5.5" x2="7.5" y2="3.5"/>
+						</g>
+					</svg>
+					подробнее
+				</a>
+			</span>
+		</h2>
+
+		<div class="category-items">
+			
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_01.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_02.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_03.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_04.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
+			<section class="category-item">
+				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_05.png);">
+				</div>
+				<h5>LONGSTAR E/L3 20.5 - 25</h5>
+				<button>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+						<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+						</g>
+					</svg>
+					Заказать
+				</button>
+			</section>
+			<!-- /.category-item -->
+
+		</div>
+		<!-- /.category-items -->
+		
+	</div>
+	<!-- /.category-items-container -->
+
+
+	<div class="category-items-container">
+		<h2>
+			<img src="catalog/view/theme/autoobuv/image/icon-header-bag.svg">
+			Популярные товары
 			<span>
 				<a href="#">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">

@@ -108,6 +108,7 @@ $filterWidth:			230px;
 		margin-left: calc($filterWidth + $filterMargin + 2.5vw);
 		margin-right: 2.5vw;
 		background-color: white;
+		margin-bottom: $marginMedium;
 		
 		h2 {
 			margin: 0 auto 4rem auto;
@@ -116,8 +117,10 @@ $filterWidth:			230px;
 			position: relative;
 			
 			img {
-				width: 18px;
+				width: 22px;
 				height: 26px;
+				margin: 0 5px -3px 0;
+
 			}
 
 			span {
