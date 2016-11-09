@@ -32,8 +32,6 @@ $filterWidth:			230px;
 	background-color: $clearBlue;
 	color: white;
 	transition-duration: $transitionDurationDefault;
-	
-
 
 }
 
@@ -233,8 +231,8 @@ $filterWidth:			230px;
 
 	
 	.contact-form-container {
+		margin-top: $marginDefault;
 		@mixin category-section-container $offWhite $marginDefault;
-		margin-top: 2.5rem;	
 	}
 
 	section.category-contact-form {
