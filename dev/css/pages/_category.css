@@ -1,6 +1,43 @@
+/* variables */
 $categoryHeaderHeight:	20rem;
 $filterMargin:			25px;
 $filterWidth:			230px;
+
+/* mixins */
+
+@define-mixin category-section-container $background-color $margin-bottom {
+	padding: 10px 25px;
+	margin-left: calc($filterWidth + $filterMargin + 2.5vw);
+	margin-right: 2.5vw;
+	background-color: $background-color;
+	margin-bottom: $margin-bottom;
+}
+
+@define-mixin category-h2 {
+	margin: 0 auto 4rem auto;
+	text-align: center;
+	font-weight: $fontWeightBold;
+	position: relative;
+}
+
+@define-mixin category-button {
+
+	cursor: pointer;
+	display: block;
+	margin: 20px auto 0 auto;
+	width: 90px;
+	height: 28px;
+	border: none;
+	border-radius: 3px;
+	background-color: $clearBlue;
+	color: white;
+	transition-duration: $transitionDurationDefault;
+	
+
+
+}
+
+
 
 #category {
 	padding-top: 1px;
@@ -59,16 +96,8 @@ $filterWidth:			230px;
 		}
 
 		button {
-			cursor: pointer;
-			display: block;
-			margin: 20px auto 0 auto;
-			width: 90px;
-			height: 28px;
-			border: none;
-			border-radius: 3px;
-			background-color: $clearBlue;
-			color: white;
-			transition-duration: $transitionDurationDefault;
+			
+			@mixin category-button;
 
 			svg {
 				width: 12px;
@@ -104,17 +133,10 @@ $filterWidth:			230px;
 	}
 
 	.category-items-container {
-		padding: 10px 25px;
-		margin-left: calc($filterWidth + $filterMargin + 2.5vw);
-		margin-right: 2.5vw;
-		background-color: white;
-		margin-bottom: $marginMedium;
+		@mixin category-section-container white $marginMedium;
 		
 		h2 {
-			margin: 0 auto 4rem auto;
-			text-align: center;
-			font-weight: $fontWeightBold;
-			position: relative;
+			@mixin category-h2;
 			
 			img {
 				width: 22px;
@@ -184,14 +206,8 @@ $filterWidth:			230px;
 		}
 
 		button {
-			margin: 0 auto;
-			padding: 6px 10px;
-			border: none;
-			border-radius: 3px;
-			background-color: $clearBlue;
-			color: white;
-			font-size: $fontSizeSmall;
-			cursor: pointer;
+			
+			@mixin category-button;
 
 			svg {
 				width: 19px;
@@ -214,6 +230,59 @@ $filterWidth:			230px;
 		} /* button */
 
 	} /* category-item */
+
+	
+	.contact-form-container {
+		@mixin category-section-container $offWhite $marginDefault;
+		margin-top: 2.5rem;	
+	}
+
+	section.category-contact-form {
+		
+		width: 80%;
+		margin: 0 auto;
+
+		h2 {
+			@mixin category-h2;
+			margin-bottom: 0;
+		}
+
+		section {
+			display: flex;
+			justify-content: space-between;
+
+			div {
+				width: 48%;
+			}
+		}
+
+		input {
+			width: 100%;
+			padding: 7px;
+			display: block;
+			margin: 15px 0;
+			border: 1px solid $baseGrey;
+			border-radius: 3px;
+		}
+
+		textarea {
+			width: 100%;
+			padding: 7px;
+			display: block;
+			margin: 15px 0;
+			border: 1px solid $baseGrey;
+			border-radius: 3px;
+			resize: none;
+		}
+
+		button {
+			
+			@mixin category-button;
+
+		}
+
+	} /* /section.category-contact-form */
+
 
 } /* category */
 

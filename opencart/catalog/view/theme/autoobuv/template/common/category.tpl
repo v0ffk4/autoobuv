@@ -374,6 +374,37 @@
 		
 	</div>
 	<!-- /.category-items-container -->
+
+	<div class="contact-form-container">
+
+		<section class="category-contact-form">
+			<h2>
+				Не нашли то, что искали?
+			</h2>
+			<p>Заполните форму, и мы обязательно с вами свяжемся</p>
+			
+			<form>
+				<section>	
+					<div>
+						<input type="" name="contact-form-name" placeholder="Ваше имя:">
+						<input type="" name="contact-form-name" placeholder="Ваш e-mail:">
+					</div>
+					<div>
+						<textarea cols="30" rows="7">	
+						</textarea>
+					</div>
+				</section>
+				<!-- /.section -->
+
+				<button type="submit">
+					Отправить
+				</button>				
+			</form>
+
+		</section>
+		<!-- /.contact-form -->		
+	</div>
+	<!-- /.category-items-container -->
 		
 
 
