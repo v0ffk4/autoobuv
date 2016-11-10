@@ -54,7 +54,7 @@
 				<ul>
 					<li><a href="http://localhost:8888/index.php?route=custom/about">О нас</a></li>
 					<li><a href="http://localhost:8888/index.php?route=custom/category">Товары</a></li>
-					<li><a href="#">Услуги</a></li>
+					<li><a href="http://localhost:8888/index.php?route=custom/item">Услуги</a></li>
 					<li><a href="#">Сервис</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
