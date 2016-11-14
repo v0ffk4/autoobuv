@@ -1,0 +1,9 @@
+#contacts {
+	background-color: $red;
+	height: 500px;
+
+}
+
+#gMap {
+	min-height: 500px;
+}
