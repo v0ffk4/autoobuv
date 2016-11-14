@@ -2,7 +2,7 @@
 	position: fixed;
 	top: calc($headerHeight + 5px);
 	right: calc(10vw - 10px);
-	background-color: $clearBlue;
+	background-color: rgba(50, 50, 50, .9);
 	color: white;
 	padding: 10px;
 	z-index: 999;
@@ -10,6 +10,8 @@
 	font-size: $fontSizeMedium;
 	font-style: italic;
 	border-radius:3px;
+	display: none;
+	opacity: 0;
 
 	label {
 		float: left;
@@ -38,5 +40,21 @@
 			margin-left: 15px;
 		}
 	}
+
+	button {
+		@mixin button;
+		margin: 20px 10px 10px auto;
+
+	}
+
+	button:hover {
+		background-color: $lightGreen;
+	}
+
+} /* #callback */
+
+#callback.active {
+
+	display: block;
 
 }

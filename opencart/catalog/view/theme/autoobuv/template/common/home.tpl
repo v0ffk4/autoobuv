@@ -80,3 +80,8 @@
 
 </div>
 <!-- /.homepage-banner-container -->
+
+<script data-cfasync="false" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6qwz4EgG020QGMhyR6nz_KNQFQPB_zjo" type="text/javascript"></script>
+<script type="text/javascript" src="catalog/view/theme/autoobuv/js/script.min.js"></script>

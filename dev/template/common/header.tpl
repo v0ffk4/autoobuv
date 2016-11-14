@@ -70,7 +70,7 @@
 			<div class="header-contact-info">
 				<p><img src="catalog/view/theme/autoobuv/image/icon-header-phone.svg">8-800-250-57-07</p>
 
-				<a>обратный звонок</a>
+				<a id="callback-link">обратный звонок</a>
 			</div>
 			<!-- /.header-contact-info -->
 
