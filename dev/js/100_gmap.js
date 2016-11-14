@@ -1,4 +1,3 @@
-
 //declare style
 var style = [
 {

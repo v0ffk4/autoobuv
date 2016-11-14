@@ -48,6 +48,10 @@ $containerMaxWidth:		1200px;
 $marginDefault: 7.5rem;
 $marginMedium:	3.75rem;
 
+/* Elements */
+$headerHeight:	60px;
+$footerHeight:	40px;
+
 
 /* animation */
 $transitionDurationDefault: 0.5s;

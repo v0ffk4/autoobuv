@@ -1,9 +1,10 @@
 #contacts {
-	background-color: $red;
 	height: 500px;
+	padding-top: 1px;
 
 }
 
 #gMap {
-	min-height: 500px;
+	min-height: calc(100vh - $headerHeight - $footerHeight);
+	margin-top: $headerHeight;
 }
