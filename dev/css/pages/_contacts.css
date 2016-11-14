@@ -15,7 +15,7 @@
 	bottom: 7%;
 	background-color:rgba(50,50,50,0.9);
 	color: white;
-	padding: 20px 50px 20px 30px;
+	padding: 10px; 
 	border-radius: 3px;
 	box-shadow:0 2px 10px rgba(0,0,0,0.5);
 	width: 30%;
@@ -48,6 +48,12 @@
 
 	} /* svg */
 
+	svg.arrow {
+		width: 12px;
+		height: 8px;
+		margin: 0;
+	}
+
 
 	a {
 		color: white;
@@ -66,7 +72,16 @@
 	}
 
 	li.selected {
+		
+		a {
+			color: $yellow;
+			cursor: default;
+		}
 
-	}
+		svg {
+			fill: $yellow;
+		}
+
+	} /* li.selected */
 
 } /* contactinfo */

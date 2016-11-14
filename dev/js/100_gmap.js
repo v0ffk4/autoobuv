@@ -120,8 +120,8 @@ var style = [
 
 
 function initMap() {
-	var lat = 59.906689;
-	var lng = 30.26827800000001;
+	var lat = 43.097630;
+	var lng = 131.864950;
 	// coordinates to latLng
 	var center = new google.maps.LatLng(lat, lng);
 	//
@@ -141,13 +141,12 @@ function initMap() {
 	var contentString = '<div id="content">'+
 	'<div id="siteNotice">'+
 	'</div>'+
-	'<h3 id="firstHeading" class="firstHeading">«Неванефтехим»</h3>'+
+	'<h3 id="firstHeading" class="firstHeading">ООО «Автообувь»</h3>'+
 	'<div id="bodyContent">'+
-	'190020, Россия, г. Санкт-Петербург,<br> ' +
-	'ул. Бумажная, д. 17, лит. А, пом. 6203.<br>'+
-	'Телефон:'+ '+7 (812) 445-28-05<br>' +
-	'Факс: 8 (812) 445-28-60<br>'+
-	'E-mail: info@nevaneftehim.ru'+
+	'690065, Приморский край, г. Владивосток,<br> ' +
+	'ул. Стрельникова, 7, офис 804.<br>'+
+	'Телефон:'+ '8 (800) 250-57-07<br>' +
+	'E-mail: manager@autoobuv.com'+
 	'<h4>Режим работы:</h4> '+
 	'Пн-Пт, 9-18<br> '+
 	'без перерывов '+
@@ -188,15 +187,27 @@ google.maps.event.addDomListener(window, 'load', initMap);
 
 function contactInfo() {
 
+	var listItem = $('#contactinfo li');
+
+	//set selected on first item
+	$(listItem[0]).addClass('selected');
+
 	//mouseEnter / mouseleave
-	$('#contactinfo li').mouseenter(function(){
+	$(listItem).mouseenter(function(){
 		$(this).addClass('active');
 	});
-	$('#contactinfo li').mouseleave(function(){
+	$(listItem).mouseleave(function(){
 		$(this).removeClass('active');
 	});
 
 	//onClick
+	$(listItem).click(function(){
+
+		$(listItem).removeClass('selected');
+		$(this).addClass('selected');
+
+	});
+
 
 }
 
