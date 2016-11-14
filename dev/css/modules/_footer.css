@@ -1,5 +1,8 @@
 footer {
 	height: $footerHeight;
+	display: flex;
+	align-items: center;
+
 
 	.container {
 		display: flex;
@@ -13,7 +16,7 @@ footer {
 	}
 
 	a,p {
-		font-size: $fontSizeMedium;
+		font-size: $fontSizeSmall;
 		margin: 0;
 	}
 	
