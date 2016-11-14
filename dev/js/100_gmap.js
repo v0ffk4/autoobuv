@@ -119,7 +119,7 @@ var style = [
 ]
 
 
-function load() {
+function initMap() {
 	var lat = 59.906689;
 	var lng = 30.26827800000001;
 	// coordinates to latLng
@@ -184,4 +184,19 @@ function load() {
 
 
 // call the function
-google.maps.event.addDomListener(window, 'load', load);
+google.maps.event.addDomListener(window, 'load', initMap);
+
+function contactInfo() {
+
+	//mouseEnter / mouseleave
+	$('#contactinfo li').mouseenter(function(){
+		$(this).addClass('active');
+	});
+	$('#contactinfo li').mouseleave(function(){
+		$(this).removeClass('active');
+	});
+
+	//onClick
+
+}
+
