@@ -3,40 +3,6 @@ $categoryHeaderHeight:	20rem;
 $filterMargin:			25px;
 $filterWidth:			230px;
 
-/* mixins */
-
-@define-mixin category-section-container $background-color $margin-bottom {
-	padding: 10px 25px;
-	margin-left: calc($filterWidth + $filterMargin + 2.5vw);
-	margin-right: 2.5vw;
-	background-color: $background-color;
-	margin-bottom: $margin-bottom;
-}
-
-@define-mixin category-h2 {
-	margin: 0 auto 4rem auto;
-	text-align: center;
-	font-weight: $fontWeightBold;
-	position: relative;
-}
-
-@define-mixin category-button {
-
-	cursor: pointer;
-	display: block;
-	margin: 20px auto 0 auto;
-	width: 90px;
-	height: 28px;
-	border: none;
-	border-radius: 3px;
-	background-color: $clearBlue;
-	color: white;
-	transition-duration: $transitionDurationDefault;
-
-}
-
-
-
 #category {
 	padding-top: 1px;
 
@@ -95,7 +61,7 @@ $filterWidth:			230px;
 
 		button {
 			
-			@mixin category-button;
+			@mixin button;
 
 			svg {
 				width: 12px;
@@ -205,7 +171,7 @@ $filterWidth:			230px;
 
 		button {
 			
-			@mixin category-button;
+			@mixin button;
 
 			svg {
 				width: 19px;
@@ -278,7 +244,7 @@ $filterWidth:			230px;
 		}
 
 		button {			
-			@mixin category-button;
+			@mixin button;
 
 			svg {
 				width: 14px;

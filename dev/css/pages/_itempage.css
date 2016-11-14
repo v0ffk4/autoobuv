@@ -73,7 +73,7 @@
 					}
 
 					button {
-						@mixin category-button;
+						@mixin button;
 						
 						svg {
 							width: 19px;

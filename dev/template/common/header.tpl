@@ -70,7 +70,7 @@
 			<div class="header-contact-info">
 				<p><img src="catalog/view/theme/autoobuv/image/icon-header-phone.svg">8-800-250-57-07</p>
 
-				<a href="#">обратный звонок</a>
+				<a>обратный звонок</a>
 			</div>
 			<!-- /.header-contact-info -->
 
@@ -78,6 +78,41 @@
 		<!-- /.header-content -->
 		
 	</header>
+
+	<div id="callback">
+		<form>
+			<fieldset>
+				<label>Вас зовут:</label>
+				<input type="text" name="callback-name">
+			</fieldset>
+			<fieldset>
+				<label>Ваш номер телефона:</label>
+				<input type="text" name="callback-name">
+			</fieldset>
+			<fieldset>
+				<label>Вам удобнее говорить:</label>
+				<div>
+					<span>c</span>
+					<select>
+						<option value="volvo">9:00 </option>
+						<option value="saab">11:00</option>
+						<option value="mercedes">13:00</option>
+						<option value="audi">15:00</option>
+					</select>
+					<span>до</span>
+					<select>
+						<option value="volvo">13:00</option>
+						<option value="volvo">15:00</option>
+						<option value="saab">17:00</option>
+						<option value="mercedes">19:00</option>
+						<option value="audi">15:00</option>
+					</select>
+				</div>
+			</fieldset>
+			<button>Мы вам перезвоним</button>
+		</form>				
+	</div>
+	<!-- /#callback -->
 	
 	<!-- wrapper is closed in footer.tpl -->
 	<div class="wrapper">
