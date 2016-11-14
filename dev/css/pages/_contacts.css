@@ -28,12 +28,45 @@
 		font-weight: $fontWeightBold;
 	}
 
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		display: inline-block;
+		margin-top: 8px;
+	}
+
+
+	svg {
+		width: 19px;
+		height: 19px;
+		margin: 0 4px -2px 0;
+		fill: $offwhite;
+		transition-duration: $transitionDurationDefault;
+
+	} /* svg */
+
+
 	a {
 		color: white;
 	}
 
-	ul {
-		list-style: none;
+	li.active {
+		
+		a {
+			color: $red;
+		}
+
+		svg {
+			fill: $red;
+		}
+
+	}
+
+	li.selected {
+
 	}
 
 } /* contactinfo */

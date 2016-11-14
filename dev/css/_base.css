@@ -114,3 +114,9 @@ p {
 span {
 	font-style: italic;
 }
+
+/* svg */
+.svg-frame {
+	fill: none;
+	stroke: none;
+}
