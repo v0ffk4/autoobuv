@@ -208,6 +208,5 @@ function contactInfo() {
 
 	});
 
-
-}
+} //contactInfo
 
