@@ -163,16 +163,31 @@
 
 				<form>
 					<fieldset>
-						<label><h2>Ваше имя</h2></label>
+						<label>
+							<h2>
+								<img src="catalog/view/theme/autoobuv/image/icon-order-name.svg">
+								Ваше имя
+							</h2>
+						</label>
 						<input type="text" name="name">
 					</fieldset>
 
 					<fieldset>
-						<label><h2>Телефон</h2></label>
+						<label>
+							<h2>
+								<img src="catalog/view/theme/autoobuv/image/icon-order-phone.svg">
+								Телефон
+							</h2>
+						</label>
 						<input type="text" name="name">
 					</fieldset>
 					<fieldset>
-						<label><h2>Комментарий к заявке</h2></label>
+						<label>
+							<h2>
+								<img src="catalog/view/theme/autoobuv/image/icon-order-comment.svg">
+								Комментарий к заявке
+							</h2>
+						</label>
 						<textarea></textarea>
 					</fieldset>
 					<button type="submit">Оставить заявку</button>
