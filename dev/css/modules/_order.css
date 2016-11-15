@@ -70,8 +70,26 @@
 		background-position: center;
 	}
 
+	p {
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+		font-size: $fontSizeMedium;
+		font-style: italic;
+		border: 1px solid $clearBlue;
+		border-radius: 5px;
+		padding: 15px;
+	}
+
 	.controls {
 		display: flex;
+		justify-content: center;
+
+		div{
+			display: flex;
+			margin-right: 25px;
+		}
+
 
 		svg {
 			width: 32px;
@@ -82,8 +100,24 @@
 				fill: none;
 				stroke: $clearBlue;
 				stroke-weight: 1.5;
+				transition: stroke $transitionDurationDefault;
 			}
 		} /* svg */
+
+
+		svg#order-increment-btn:hover {
+
+			.order-arrow {
+				stroke: $lightGreen;
+			}
+		} /* svg-hover */
+
+		svg#order-decrement-btn:hover {
+
+			.order-arrow {
+				stroke: $red;
+			}
+		} /* svg-hover */
 
 		input {
 			width: 50px;
@@ -91,6 +125,15 @@
 			font-size: 150%;
 			color: $clearBlue;
 			border: none;
+		}
+		
+		button {
+			@mixin button;
+			margin: 0;
+		}
+
+		button:hover {
+			background-color: $lightGreen;
 		}
 
 	} /* controls */

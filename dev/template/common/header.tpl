@@ -130,20 +130,30 @@
 					
 				</div>
 				<!-- image-div -->
-				<div class="controls">
-					<svg id="order-increment-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1,.cls-2{fill:none;}.cls-2{stroke:#000;stroke-miterlimit:10;}</style></defs>
-					<title>order-increment-btn</title>
-					<rect class="svg-frame" width="32" height="32"/>
-					<polyline class="order-arrow" points="22.5 3.5 8.5 15.5 22.5 28.5"/>
-					</svg>
-					
-					<input type="text" name="item-count" class="count" value="1" data-max-quantity="6" maxlength="3">
+				
+				<p>Краткое описание для заказа, какой-нибудь пояснительный текст. Ну ли что-то вроде того</p>
 
-					<svg id="order-decrement-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1,.cls-2{fill:none;}.cls-2{stroke:#000;stroke-miterlimit:10;}</style></defs>
-					<title>order-decrement-btn</title>
-					<rect class="svg-frame" width="32" height="32"/>
-					<polyline class="order-arrow" points="8.5 3.5 22.5 15.5 8.5 28.5"/>
-					</svg>
+				<div class="controls">
+
+					<div>
+						<svg id="order-decrement-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1,.cls-2{fill:none;}.cls-2{stroke:#000;stroke-miterlimit:10;}</style></defs>
+						<title>order-decrement-btn</title>
+						<rect class="svg-frame" width="32" height="32"/>
+						<polyline class="order-arrow" points="22.5 3.5 8.5 15.5 22.5 28.5"/>
+						</svg>
+						
+						<input type="text" name="order-count" class="order-count" value="1" data-max-quantity="6" maxlength="3">
+
+						<svg id="order-increment-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1,.cls-2{fill:none;}.cls-2{stroke:#000;stroke-miterlimit:10;}</style></defs>
+						<title>order-increment-btn</title>
+						<rect class="svg-frame" width="32" height="32"/>
+						<polyline class="order-arrow" points="8.5 3.5 22.5 15.5 8.5 28.5"/>
+						</svg>
+					</div>
+					
+					<button>Заказать</button>
+
+
 				</div>
 				<!-- /.controls -->
 			</div>
