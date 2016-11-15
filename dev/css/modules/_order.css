@@ -48,11 +48,12 @@
 } /* #order-contaoner */
 
 #order-frame-01 {
+	display: none;
+}
 
-	display: flex;
-	height: 100%;
-	flex-direction: column;
-	justify-content: space-around;
+#order-frame-01.active {
+
+	@mixin order-frame;
 
 	h2 {
 		text-align: center;
@@ -152,5 +153,60 @@
 		}
 
 	} /* controls */
+
+} /* #order-frame-01.active */
+
+#order-frame-02 {
+	display: none;
+}
+
+#order-frame-02.active {
+	@mixin order-frame;
+	background-color: $offwhite;
+	
+	form {
+		width: 90%;
+		margin: auto;
+	}
+
+	fieldset {
+		border: none;
+		margin-bottom: 10px;
+	}
+
+	label {
+		display: block;
+		text-align: center;
+	}
+
+	h2 {
+		margin: 0;
+		color: $baseGrey;
+	}
+
+	input {
+		width: 100%;
+		font-size: $fontSizeLarge;
+		padding: 5px;
+		margin-top: 10px;
+		border: none;
+		border-radius: 3px;
+		box-shadow: inset 0px 3px 5px -5px black;
+	}
+
+	textarea {
+		width: 100%;
+		font-size: $fontSizeLarge;
+		height: 150px;
+		resize: none;
+		margin-top: 10px;
+		border: none;
+		border-radius: 3px;
+		box-shadow: inset 0px 3px 5px -5px black;
+	}
+
+	button {
+		@mixin button;
+	}
 
 }

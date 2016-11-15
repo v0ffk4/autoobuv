@@ -157,7 +157,30 @@
 				</div>
 				<!-- /.controls -->
 			</div>
-			<!-- /#order-frame-01 -->			
+			<!-- /#order-frame-01 -->
+
+			<div id="order-frame-02" class="active">
+
+				<form>
+					<fieldset>
+						<label><h2>Ваше имя</h2></label>
+						<input type="text" name="name">
+					</fieldset>
+
+					<fieldset>
+						<label><h2>Телефон</h2></label>
+						<input type="text" name="name">
+					</fieldset>
+					<fieldset>
+						<label><h2>Комментарий к заявке</h2></label>
+						<textarea></textarea>
+					</fieldset>
+					<button type="submit">Оставить заявку</button>
+				</form>
+				
+			</div>
+			<!-- /#order-frame-02 -->
+
 		</div>
 		<!-- /#order-container -->
 	</div>

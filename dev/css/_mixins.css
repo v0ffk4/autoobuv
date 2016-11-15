@@ -29,3 +29,10 @@
 	transition-duration: $transitionDurationDefault;
 
 }
+
+@define-mixin order-frame {
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+	display: flex;
+}
