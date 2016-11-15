@@ -117,6 +117,21 @@
 			}
 		} /* svg-hover */
 
+		svg.button-inactive {
+				
+			.order-arrow {
+				stroke: $lightGrey;
+			}
+		}
+		
+		svg.button-inactive:hover {
+
+			.order-arrow {
+				stroke: $lightGrey!important;
+			}	
+		}
+
+
 		input {
 			width: 50px;
 			text-align: center;
