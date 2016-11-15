@@ -119,6 +119,8 @@
 
 		svg.button-inactive {
 				
+			cursor: default;
+
 			.order-arrow {
 				stroke: $lightGrey;
 			}
