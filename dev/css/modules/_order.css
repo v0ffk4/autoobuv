@@ -7,7 +7,7 @@
 	justify-content: center;
 	align-items: center;
 	z-index: 999;
-	display: none;
+	display: flex;
 
 } /* #order-background */
 
@@ -63,11 +63,36 @@
 
 	.order-item-image {
 		margin: 0 auto;
-		width: 170px;
-		height: 170px;
+		width: 200px;
+		height: 200px;
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+
+	.controls {
+		display: flex;
+
+		svg {
+			width: 32px;
+			height: 32px;
+			cursor: pointer;
+
+			.order-arrow {
+				fill: none;
+				stroke: $clearBlue;
+				stroke-weight: 1.5;
+			}
+		} /* svg */
+
+		input {
+			width: 50px;
+			text-align: center;
+			font-size: 150%;
+			color: $clearBlue;
+			border: none;
+		}
+
+	} /* controls */
 
 }
