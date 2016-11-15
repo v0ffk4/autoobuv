@@ -124,7 +124,7 @@
 		</svg>
 
 		<div id="order-container">
-			<div id="order-frame-01">
+			<div id="order-frame-01" class="order-frame">
 				<h2>TAITONG HS268 9.00R20</h2>
 				<div class="order-item-image" style="background-image: url(catalog/view/theme/autoobuv/image/items/item_04.png);">
 					
@@ -151,7 +151,7 @@
 						</svg>
 					</div>
 					
-					<button>Заказать</button>
+					<button class="submit-button">Заказать</button>
 
 
 				</div>
@@ -159,7 +159,7 @@
 			</div>
 			<!-- /#order-frame-01 -->
 
-			<div id="order-frame-02" class="active">
+			<div id="order-frame-02" class="order-frame">
 
 				<form>
 					<fieldset>
@@ -190,7 +190,7 @@
 						</label>
 						<textarea></textarea>
 					</fieldset>
-					<button type="submit">Оставить заявку</button>
+					<button type="submit" class="next-frame-button">Оставить заявку</button>
 				</form>
 				
 			</div>

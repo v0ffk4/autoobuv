@@ -7,7 +7,8 @@
 	justify-content: center;
 	align-items: center;
 	z-index: 999;
-	display: flex;
+	opacity: 0;
+	display: none;
 
 } /* #order-background */
 
@@ -44,6 +45,18 @@
 	background-color: white;
 	border-radius: 5px;
 	box-shadow: $basicShadow;
+	display: none;
+	opacity: 0;
+
+} /* #order-contaoner */
+
+#order-container.active {
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: $basicShadow;
+	display: block;
 
 } /* #order-contaoner */
 
