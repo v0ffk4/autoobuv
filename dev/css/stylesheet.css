@@ -4,6 +4,7 @@
 @import "modules/header";
 @import "modules/callback";
 @import "modules/subheader";
+@import "modules/order";
 @import "modules/footer";
 @import "pages/homepage";
 @import "pages/about";

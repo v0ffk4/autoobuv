@@ -13,7 +13,7 @@
 					<rect class="svg-frame" width="18" height="18"/>
 					<polygon points="7.5 15.5 7.5 10.5 10.5 10.5 10.5 15.5 13.5 15.5 13.5 8.5 16 8.5 9 3.01 2 8.5 4.5 8.5 4.5 15.5 7.5 15.5"/>
 				</svg>
-				<a>Офис: ул. Стрельникова, 7, офис 203</a>
+				<a>Офис: ул. Стрельникова, 7, офис 804</a>
 				<svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 8">
 					<title>Arrow</title>
 					<polygon class="cls-1" points="6 8 6 5 0 5 0 3 6 3 6 0 12 4 6 8"/>

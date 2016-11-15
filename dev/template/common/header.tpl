@@ -113,6 +113,26 @@
 		</form>				
 	</div>
 	<!-- /#callback -->
+
+	<div id="order-background">
+		
+		<svg id="order-close-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+			<title>order-close-button</title>
+			<rect class="svg-frame" width="32" height="32"/>
+			<line class="order-close" x1="3.5" y1="3.5" x2="28.5" y2="29.5"/>
+			<line class="order-close" x1="29" y1="4" x2="3" y2="29"/>
+		</svg>
+
+		<div id="order-container">
+			<div id="order-frame-01">
+				<h2>TAITONG HS268 9.00R20</h2>
+				<div class="order-item-image" style="background-image: url(catalog/view/theme/autoobuv/image/items/item_04.png);"></div>
+			</div>
+			<!-- /#order-frame-01 -->			
+		</div>
+		<!-- /#order-container -->
+	</div>
+	<!-- /#order-background -->
 	
 	<!-- wrapper is closed in footer.tpl -->
 	<div class="wrapper">

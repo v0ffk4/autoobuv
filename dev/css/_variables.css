@@ -52,6 +52,8 @@ $marginMedium:	3.75rem;
 $headerHeight:	60px;
 $footerHeight:	60px;
 
+$basicShadow: 0px 5px 15px $shadowColor;
+
 
 /* animation */
 $transitionDurationDefault: 0.5s;

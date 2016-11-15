@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	callback();
 	headerOpacity();
 	categorySubmenu();
+	orderFrontend();
 	contactInfo();
 
 });
