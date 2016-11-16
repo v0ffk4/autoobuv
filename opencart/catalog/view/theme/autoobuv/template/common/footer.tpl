@@ -6,9 +6,9 @@
 		<div class="container">
 			<div>
 				<img src="catalog/view/theme/autoobuv/image/icon-footer-feedback.svg">
-				<a href="#">обратная связь</a>
+				<a href="#">обратная&nbsp;связь</a>
 			</div>
-			<p>©<?php echo date("Y"); ?>&nbsp;&nbsp;&nbsp;ООО «Автообувь».&nbsp;&nbsp;&nbsp;Все права защищены.</p>
+			<p>©<?php echo date("Y"); ?>&nbsp;&nbsp;&nbsp;ООО&nbsp;«Автообувь».&nbsp;&nbsp;&nbsp;Все права защищены.</p>
 			<div>
 				<img src="catalog/view/theme/autoobuv/image/icon-footer-mail.svg">
 				<a href="#">mail@autoobuv.com</a>
