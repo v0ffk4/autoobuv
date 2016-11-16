@@ -82,6 +82,7 @@
 					 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 
 				<style type="text/css">
+				
 					#burger-svg-frame {
 						fill:none;
 					}
