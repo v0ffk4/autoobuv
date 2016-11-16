@@ -90,40 +90,45 @@
 				<fieldset>
 					<label>Тип шины</label>
 					<select>
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+						<option value="любые">любые</option>
+						<option value="дорожные">дорожные</option>
+						<option value="карьерные">карьерные</option>
+						<option value="универсальные">универсальные</option>
+						<option value="рулевые">рулевые</option>
+						<option value="ведущие">ведущие</option>
 					</select>
 				</fieldset>
 
 				<fieldset>
 					<label>Ширина</label>
 					<select>
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+						<option value="16">16</option>
+						<option value="208">208</option>
+						<option value="220">220</option>
+						<option value="260">260</option>
+						<option value="270">270</option>
+						<option value="280">280</option>
+						<option value="290">290</option>
 					</select>
 				</fieldset>
 
 				<fieldset>
 					<label>Высота</label>
 					<select>
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+						<option value="70">70</option>
+						<option value="80">80</option>
 					</select>
 				</fieldset>
 
 				<fieldset>
 					<label>Диаметр</label>
 					<select>
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+						<option value="20">20</option>
+						<option value="22.5">22.5</option>
+						<option value="35.8">35.8</option>
+						<option value="37.8">37.8</option>
+						<option value="39.9">39.9</option>
+						<option value="40.55">40.55</option>						
 					</select>
 				</fieldset>
 
@@ -132,30 +137,33 @@
 				<fieldset>
 					<label>Тип техники</label>
 					<select>
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+						<option value="все типы">все типы</option>
+						<option value="тягачи">тягачи</option>
+						<option value="автокраны">автокраны</option>
+						<option value="катки">катки</option>
+						<option value="тралы">тралы</option>
+						<option value="погрузчики">погрузчики</option>
+						<option value="самосвалы">самосвалы</option>
 					</select>
 				</fieldset>
 
 				<fieldset>
 					<label>Производитель техники</label>
 					<select>
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+						<option value="volvo">---</option>
+						<option value="saab">---</option>
+						<option value="mercedes">---</option>
+						<option value="audi">---</option>
 					</select>
 				</fieldset>
 
 				<fieldset>
 					<label>Модель техники</label>
 					<select>
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="mercedes">Mercedes</option>
-						<option value="audi">Audi</option>
+						<option value="volvo">---</option>
+						<option value="saab">---</option>
+						<option value="mercedes">---</option>
+						<option value="audi">---</option>
 					</select>
 				</fieldset>
 
