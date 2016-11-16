@@ -6,11 +6,11 @@ footer {
 
 	.container {
 		display: flex;
-		flex-direction: column;
 		align-items: center;
+		flex-wrap: wrap;
+		justify-content: space-around;
 
 		@media $medium {
-			flex-direction: row;
 			justify-content: space-between;
 		}
 	} /* container */
@@ -23,9 +23,7 @@ footer {
 
 	a,p {
 		font-size: $fontSizeSmall;
-		@media $medium {
-			margin: 0;
-		}
+		margin: 0;
 	}
 	
 	a {
@@ -33,7 +31,17 @@ footer {
 	}
 
 	p {
-		order: 2;
+		@media $medium {
+			order: 1
+		}
 	}
+
+	.mailto {
+		@media $medium {
+			order: 2;
+		}
+	}
+
+
 	
 } /* Footer */

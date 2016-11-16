@@ -4,15 +4,19 @@
 	<footer>
 
 		<div class="container">
-			<div>
-				<img src="catalog/view/theme/autoobuv/image/icon-footer-feedback.svg">
-				<a href="#">обратная&nbsp;связь</a>
-			</div>
+
+				<div class="feedback">
+					<img src="catalog/view/theme/autoobuv/image/icon-footer-feedback.svg">
+					<a href="#">обратная&nbsp;связь</a>
+				</div>
+				<div class="mailto">
+					<img src="catalog/view/theme/autoobuv/image/icon-footer-mail.svg">
+					<a href="#">mail@autoobuv.com</a>
+				</div>
+			
+
 			<p>©<?php echo date("Y"); ?>&nbsp;&nbsp;&nbsp;ООО&nbsp;«Автообувь».&nbsp;&nbsp;&nbsp;Все права защищены.</p>
-			<div>
-				<img src="catalog/view/theme/autoobuv/image/icon-footer-mail.svg">
-				<a href="#">mail@autoobuv.com</a>
-			</div>
+			
 		</div>
 		<!-- /.container -->
 		
