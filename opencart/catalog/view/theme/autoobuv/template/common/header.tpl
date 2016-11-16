@@ -50,7 +50,7 @@
 				<img class="logo" src="catalog/view/theme/autoobuv/image/logo.svg">
 			</a>
 
-			<nav class="nav-main">
+			<nav class="nav-main active">
 				<ul>
 					<li><a href="http://localhost:8888/index.php?route=custom/about">О нас</a></li>
 					<li><a href="http://localhost:8888/index.php?route=custom/category">Товары</a></li>
@@ -67,6 +67,8 @@
 				catMenuItem.className += "cat-menu-item";
 			</script>
 
+
+			<!-- contact info -->
 			<div class="header-contact-info">
 				<p><img src="catalog/view/theme/autoobuv/image/icon-header-phone.svg">8-800-250-57-07</p>
 
