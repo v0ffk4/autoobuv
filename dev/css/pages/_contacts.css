@@ -5,8 +5,12 @@
 }
 
 #gMap {
-	min-height: calc(100vh - $headerHeight - $footerHeight);
+	min-height: calc(100vh - $headerHeight - $footerHeightMobile);
 	margin-top: $headerHeight;
+
+	@media $medium {
+		min-height: calc(100vh - $headerHeight - $footerHeight);
+	}
 }
 
 #contactinfo {

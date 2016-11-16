@@ -39,7 +39,11 @@ body {
 
 .wrapper {
 	width: 100%;
-	min-height: calc(100vh - $footerHeight);
+	min-height: calc(100vh - $footerHeightMobile);
+	
+	@media $medium{
+		min-height: calc(100vh - $footerHeight);
+	}
 }
 
 .container {
