@@ -16,10 +16,16 @@ footer {
 	} /* container */
 
 	img {
+		width: 30px;
+		height: 27px;
+		margin-bottom: -15px;
+
+		@media $medium {
 			width: 20px;
 			height: 18px;
 			margin-bottom: -7px;
-	}
+		}
+	} /* img */
 
 	a,p {
 		font-size: $fontSizeSmall;
@@ -31,12 +37,22 @@ footer {
 	}
 
 	p {
+		margin: 10px 0;
 		@media $medium {
 			order: 1
 		}
 	}
 
-	.mailto {
+	div {
+		margin: 20px 0 10px 0;
+		
+		@media $medium {
+			margin: 0;
+		}
+
+	}
+
+	div:last-of-type {
 		@media $medium {
 			order: 2;
 		}

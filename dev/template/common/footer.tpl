@@ -5,11 +5,11 @@
 
 		<div class="container">
 
-				<div class="feedback">
+				<div>
 					<img src="catalog/view/theme/autoobuv/image/icon-footer-feedback.svg">
 					<a href="#">обратная&nbsp;связь</a>
 				</div>
-				<div class="mailto">
+				<div>
 					<img src="catalog/view/theme/autoobuv/image/icon-footer-mail.svg">
 					<a href="#">mail@autoobuv.com</a>
 				</div>
