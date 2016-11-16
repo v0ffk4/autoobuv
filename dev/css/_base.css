@@ -47,9 +47,14 @@ body {
 }
 
 .container {
-	width: 80vw;
+	width: 100vw;
 	margin: 0 auto;
-	padding-top: 1px;
+	padding: 1px 2.5% 0 2.5%;
+
+	@media $medium{
+		width: 80vw;
+		padding: 1px 0 0 0;
+	}
 }
 
 .container-wide {

@@ -3,13 +3,26 @@
 	.item-container {
 		background-color: white;
 		display: flex;
-		align-items: flex-end;
-		padding: 25px;
+		flex-direction: column;
+		padding-top: 10px;
+
+		@media $medium {
+			padding: 25px;
+			flex-direction: row;
+			align-items: flex-end;
+		}
 
 		img {
+		width: 125px;
+		height: 168px;
+		margin: 0 auto;
+
+		@media $medium {
 			width: 250px;
-			height: 335px;
+			height: 336px;
 		}
+			
+		} /* img */
 
 		.item-description {
 
