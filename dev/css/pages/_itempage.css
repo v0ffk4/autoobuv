@@ -25,9 +25,12 @@
 		} /* img */
 
 		.item-description {
-
-			margin-left: 10rem;
-			width: 100%;
+			margin-left: 0;
+			@media $medium {
+				margin-left: 10rem;
+				width: 100%;	
+			}
+			
 
 			h2 {
 				font-weight: $fontWeightBold;
@@ -39,16 +42,22 @@
 			}
 
 			section {
-				display: flex;
+				display: block;
 				width: 100%;
-				align-items: flex-end;
+
+				@media $medium {
+					display: flex;
+					align-items: flex-end;
+				}
 
 				dl {
-					margin: 3rem 0 0 0;
+				margin: 3rem 0 0 0;
+					@media $medium {
 					width: 40%;
 					font-size: $fontSizeMedium;
 					display: block;
-				}
+					}
+				}/* dl */ 
 
 				dt, dd {
 					padding: 0 15px;
