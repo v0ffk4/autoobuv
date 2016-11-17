@@ -130,13 +130,17 @@
 
 } /* item */
 
-.contact-form-container-item {
+.item-form-container {
 	width: 100%;
 	margin: $marginDefault auto $marginDefault auto;
 
 	@media $medium {
 		width: 80%;
 	}
+
+	section.basic-contact-form {
+		@mixin basic-contact-form 60%;
+	} /* /section.category-contact-form */
 }
 
 nav.breadcrumbs {
