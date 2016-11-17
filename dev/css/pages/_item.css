@@ -1,4 +1,4 @@
-.item {
+#item {
 
 	.item-container {
 		background-color: white;
@@ -135,7 +135,7 @@
 	margin: $marginDefault auto $marginDefault auto;
 
 	@media $medium {
-		width: 80%;
+		width: 60%;
 	}
 
 	section.basic-contact-form {

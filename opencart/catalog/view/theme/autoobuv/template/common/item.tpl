@@ -1,5 +1,6 @@
 <?php echo $header; ?>
 
+<!-- лучше это вынести в tpl -->
 <div id="subheader-container">	
 	<nav class="sublevel-01">
 		<ul class="container">
@@ -72,6 +73,7 @@
 </div>
 <!-- /.subheader-container -->
 
+<!-- лучше это вынести в tpl -->
 <nav class="breadcrumbs">
 	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-home.svg">
 	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
@@ -81,77 +83,69 @@
 </nav>
 <!-- /.breadcrumbs -->
 
+<section id="item">
 
-<section id="category">
-	
-	<section class="item">
+	<div class="item-container container">
+		
+		<img src="catalog/view/theme/autoobuv/image/items/item-page.jpg">
 
-		<div class="item-container container">
+		<section class="item-description">
+			<h2>TAITONG HS203 315/80 R22,5</h2>
+			<dl>
+				<dt>Ось:</dt>
+				<dd>ведущие</dd>
+				<dt>Применение:</dt>
+				<dd>универсальные</dd>
+			</dl>
+
+			<p>Данной шины нет в наличии, но вы можете оставить заявку на заказ</p>
 			
-			<img src="catalog/view/theme/autoobuv/image/items/item-page.jpg">
+			<section>
 
-			<section class="item-description">
-				<h2>TAITONG HS203 315/80 R22,5</h2>
 				<dl>
-					<dt>Ось:</dt>
-					<dd>ведущие</dd>
-					<dt>Применение:</dt>
-					<dd>универсальные</dd>
+					<dt>Размер шины:</dt>
+					<dd>315/80R22.5</dd>
+					<dt>Торговая марка:</dt>
+					<dd>TAITONG</dd>
+					<dt>Модель:</dt>
+					<dd>HS102</dd>
+					<dt>Слойность (PR):</dt>
+					<dd>20</dd>
+					<dt>Наличие камеры:</dt>
+					<dd>Бескамерные (TL)</dd>
+					<dt>Тип конструкции:</dt>
+					<dd>радиальный</dd>
+					<dt>Сезонность:</dt>
+					<dd>всесезонная</dd>
+					<dt>Индекс нагрузки:</dt>
+					<dd>157 / 153</dd>
+					<dt>Нагрузка:</dt>
+					<dd>4125 / 3650кг.</dd>
+					<dt>Индекс скорости:</dt>
+					<dd>L ( 120 )</dd>
+					<dt>Вес шины в сборе:</dt>
+					<dd>66кг</dd>
 				</dl>
 
-				<p>Данной шины нет в наличии, но вы можете оставить заявку на заказ</p>
+				<div>
+					<h1>33 000<span>Р</span></h1>
+					<img src="catalog/view/theme/autoobuv/image/item-arrow.svg">
+					<button>
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
+							<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
+							</g>
+						</svg>
+						Заказать
+					</button>
+				</div>
 				
-				<section>
-
-					<dl>
-						<dt>Размер шины:</dt>
-						<dd>315/80R22.5</dd>
-						<dt>Торговая марка:</dt>
-						<dd>TAITONG</dd>
-						<dt>Модель:</dt>
-						<dd>HS102</dd>
-						<dt>Слойность (PR):</dt>
-						<dd>20</dd>
-						<dt>Наличие камеры:</dt>
-						<dd>Бескамерные (TL)</dd>
-						<dt>Тип конструкции:</dt>
-						<dd>радиальный</dd>
-						<dt>Сезонность:</dt>
-						<dd>всесезонная</dd>
-						<dt>Индекс нагрузки:</dt>
-						<dd>157 / 153</dd>
-						<dt>Нагрузка:</dt>
-						<dd>4125 / 3650кг.</dd>
-						<dt>Индекс скорости:</dt>
-						<dd>L ( 120 )</dd>
-						<dt>Вес шины в сборе:</dt>
-						<dd>66кг</dd>
-					</dl>
-
-					<div>
-						<h1>33 000<span>Р</span></h1>
-						<img src="catalog/view/theme/autoobuv/image/item-arrow.svg">
-						
-						<button>
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
-								<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>
-								</g>
-							</svg>
-							Заказать
-						</button>
-
-					</div>
-					
-				</section>
-
 			</section>
-			<!-- /.item-description -->
 
-		</div>
-		<!-- /.item-container -->
+		</section>
+		<!-- /.item-description -->
 
-	</section>
-	<!-- /.item -->
+	</div>
+	<!-- /.item-container -->
 	
 	<div class="item-form-container">
 		<section class="basic-contact-form">
@@ -196,11 +190,8 @@
 	</div>
 	<!-- /.item-form-container -->
 
-		
-
-
 </section>
-<!-- /#category -->
+<!-- /#item -->
 
 
 <?php echo $footer; ?>
