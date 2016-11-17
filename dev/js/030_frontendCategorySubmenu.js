@@ -135,9 +135,10 @@ function categorySubmenu() {
 	//задаем маркер по-умолчанию
 	var currentMenuMarker = -1;
 
-	var subheaderMainLi = $('.subheader-main li');
+	var subheaderMainLi = $('.subheader-main > ul > li');
 	var subBackground = $('.sublevel-background')
 	var subUl = $('.submenu');
+	var subLi = $('.submenu li')
 
 
 //declaring functions
@@ -188,7 +189,43 @@ function categorySubmenu() {
 		$(subUl).hide();
 		$(subUl).removeClass('active');
 
-	} //end hideNavUl
+	}
+
+//show subLi
+	function showSubLi(){
+
+		tlShowSubLi = new TimelineMax();
+
+		tlShowSubLi
+				.set( subLi, { opacity: 0 } )
+				.set( subLi, { x: '+=40' } )
+				.to( subLi, 1, { opacity: 1 } )
+				.to( subLi, 0.5, { x: '-=40', ease: Power1.easeOut }, '-=1' );
+
+
+	}
+
+
+//потому что через CSS дергается
+	function hoverLi(){
+
+		$(subLi).mouseenter(function(){
+
+			hoverTarget = $(this);
+			TweenLite.to(hoverTarget, 0.5, {className:"+=hover", ease: Power1.easeOut });
+
+		});
+
+		$(subLi).mouseleave(function(){
+
+			hoverTarget = $(this);
+			TweenLite.to(hoverTarget, 0.5, {className:"-=hover", ease: Power1.easeIn });
+
+		});
+
+	}
+
+	hoverLi();
 
 
 //on click
@@ -210,7 +247,7 @@ function categorySubmenu() {
 			hiliteShow($(this));
 			showSubBackground();
 			showNavUl($(this));
-			//showNavLi();
+			showSubLi();
 		}
 	});
 

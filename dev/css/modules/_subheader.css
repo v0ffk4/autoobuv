@@ -56,16 +56,31 @@ nav.subheader-main {
 		}
 
 		ul {
-			margin-top: 5px;
+			margin-top: 10px;
 			position: absolute;
 			width: 100%;
 			left: 0;
 			display: none;
-			z-index: 1;	
+			z-index: 1;
+			color: white;
 		}
 
 		ul.active {
 			display: flex;
+			align-items: center;
+
+			li {
+			padding: 0 5px;
+			border-radius: 3px;
+			color: white;
+			}
+			
+			li.hover {
+				padding: 0 5px;
+				color: $clearBlue;
+				background-color: $offwhite;
+			}
+
 		}
 
 	} /* li */
@@ -87,30 +102,6 @@ div.sublevel-background {
 	width: 100%;
 	opacity: 0;
 	display: none;
-
-/*
-
-	
-
-	li {
-		@mixin subheader-li;
-		padding: 0 5px;
-		border-radius: 3px;
-		line-height: 1.8rem;
-		color: white;
-		opacity: 0;
-	}
-
-	li.hover {
-		@mixin subheader-li;
-		padding: 0 5px;
-		color: $clearBlue;
-		background-color: $offwhite;
-		opacity: 0;
-	}
-
-*/
-
 }
 
 div.sublevel-background.active {
