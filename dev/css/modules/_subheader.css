@@ -1,11 +1,19 @@
 /* define mixins */
 @define-mixin subheader-ul {
 	display: flex;
-	color: $baseGrey;
-	justify-content: space-between;
-	align-items: center;
-	font-size: $fontSizeMedium;
-	padding: 0;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+
+	@media $medium {
+		height: auto;
+		flex-direction: row;
+		color: $baseGrey;
+		justify-content: space-between;
+		align-items: center;
+		font-size: $fontSizeMedium;
+		padding: 0;
+	}
 }
 
 @define-mixin subheader-li {
@@ -39,13 +47,37 @@ nav.subheader-main {
 		font-style: normal;
 	}
 
+	height: 100vh;
+	padding-top: $headerHeight;
+	background-color: red;
+
+	@media $medium {
+		padding-top: 0;
+		height: auto;
+	}
+
 	ul {
 		position: relative;
-		@mixin subheader-ul;
+		display: flex;
+		flex-direction: column;
+		height: 50vh;
+		justify-content: space-around;
+
+		@media $medium {
+			height: auto;
+			flex-direction: row;
+			color: $baseGrey;
+			justify-content: space-between;
+			align-items: center;
+			font-size: $fontSizeMedium;
+			padding: 0;
+		}
 	} /* ul */
 
 	li {
-		@mixin subheader-li;
+		display: inline;
+		cursor: pointer;
+		padding: 5px;
 
 
 		svg {
@@ -59,13 +91,23 @@ nav.subheader-main {
 		}
 
 		ul {
-			margin-top: 10px;
 			position: absolute;
-			width: 100%;
+			margin-top: 0px;
 			left: 0;
-			display: none;
-			z-index: 1;
-			color: white;
+			top: 50vh;
+			width: 100%;
+			background-color: green;
+
+			@media $medium {
+				margin-top: 10px;
+				position: absolute;
+				width: 100%;
+				left: 0;
+				top: auto;
+				display: none;
+				z-index: 1;
+				color: white;
+			}
 		}
 
 		ul.active {
