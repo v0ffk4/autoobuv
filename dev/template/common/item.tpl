@@ -5,7 +5,7 @@
 	<nav class="subheader-main">
 		<ul class="container">
 			<li>
-				Для грузовиков
+				<span>Для грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
 					<polyline class="cls-1" points="0.38 7.33 3.38 3.83 0.38 0.33"/>
 				</svg>
@@ -24,7 +24,7 @@
 			</li>
 
 			<li>
-				Для малых грузовиков
+				<span>Для малых грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
 					<polyline class="cls-1" points="0.38 7.33 3.38 3.83 0.38 0.33"/>
 				</svg>
@@ -35,7 +35,7 @@
 				</ul>
 			</li>
 			<li>
-				Для спецтехники
+				<span>Для спецтехники</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
 					<polyline class="cls-1" points="0.38 7.33 3.38 3.83 0.38 0.33"/>
 				</svg>

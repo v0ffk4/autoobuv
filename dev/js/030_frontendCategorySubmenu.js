@@ -135,7 +135,7 @@ function categorySubmenu() {
 	//задаем маркер по-умолчанию
 	var currentMenuMarker = -1;
 
-	var subheaderMainLi = $('.subheader-main > ul > li');
+	var subheaderMainSpan = $('.subheader-main span');
 	var subBackground = $('.sublevel-background')
 	var subUl = $('.submenu');
 	var subLi = $('.submenu li')
@@ -165,13 +165,13 @@ function categorySubmenu() {
 
 //hilite show
 	function hiliteShow(current){
-		$(subheaderMainLi).removeClass('active');
+		$(subheaderMainSpan).closest('li').removeClass('active');
 		$(current).addClass('active');
 	}
 
 //hilite hide
 	function hiliteHide(){
-		$(subheaderMainLi).removeClass('active');
+		$(subheaderMainSpan).closest('li').removeClass('active');
 	}
 
 //showNavUl
@@ -229,9 +229,9 @@ function categorySubmenu() {
 
 
 //on click
-	subheaderMainLi.click(function() {
+	subheaderMainSpan.click(function() {
 		//если кликнутый пункт равен текущему, то закрываем нафик субменю
-		if( $(this).index() == currentMenuMarker ) {
+		if( $(this).closest('li').index() == currentMenuMarker ) {
 
 			hiliteHide();
 			hideNavUl();
@@ -242,11 +242,11 @@ function categorySubmenu() {
 			
 		} else {
 			//меняем маркер на кликнутый
-			currentMenuMarker = $(this).index();
+			currentMenuMarker = $(this).closest('li').index();
 
-			hiliteShow($(this));
+			hiliteShow($(this).closest('li'));
 			showSubBackground();
-			showNavUl($(this));
+			showNavUl($(this).closest('li'));
 			showSubLi();
 		}
 	});

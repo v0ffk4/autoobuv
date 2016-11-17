@@ -35,6 +35,9 @@
 
 nav.subheader-main {
 	
+	span {
+		font-style: normal;
+	}
 
 	ul {
 		position: relative;
