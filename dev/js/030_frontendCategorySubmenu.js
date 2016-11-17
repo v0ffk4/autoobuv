@@ -1,3 +1,4 @@
+/*
 function categorySubmenu() {
 
 	//задаем маркер по-умолчанию
@@ -124,5 +125,93 @@ function categorySubmenu() {
 		
 	}); 
 	//end onclick
+
+}
+
+*/
+
+function categorySubmenu() {
+
+	//задаем маркер по-умолчанию
+	var currentMenuMarker = -1;
+
+	var subheaderMainLi = $('.subheader-main li');
+	var subBackground = $('.sublevel-background')
+	var subUl = $('.submenu');
+
+
+//declaring functions
+
+//show background
+	function showSubBackground() {
+		if (!$(subBackground).hasClass('active')) {
+
+			$(subBackground).addClass('active');
+			TweenLite.to(subBackground, 1, {opacity: 1});
+
+		}
+
+	}
+
+//hide background
+	function hideSubBackground() {
+
+			TweenLite.to(subBackground, 0.5, {opacity: 0, onComplete:function(){
+					$(subBackground).removeClass('active');
+				}});
+
+	}
+
+//hilite show
+	function hiliteShow(current){
+		$(subheaderMainLi).removeClass('active');
+		$(current).addClass('active');
+	}
+
+//hilite hide
+	function hiliteHide(){
+		$(subheaderMainLi).removeClass('active');
+	}
+
+//showNavUl
+	function showNavUl(current) {
+
+		$(subUl).hide();
+		$(current).children('ul').addClass('active');
+		$(current).children('ul').show();
+
+	} 
+
+//hideNavUl
+	function hideNavUl() {
+
+		$(subUl).hide();
+		$(subUl).removeClass('active');
+
+	} //end hideNavUl
+
+
+//on click
+	subheaderMainLi.click(function() {
+		//если кликнутый пункт равен текущему, то закрываем нафик субменю
+		if( $(this).index() == currentMenuMarker ) {
+
+			hiliteHide();
+			hideNavUl();
+			hideSubBackground();
+
+			//сбрасываем маркер
+			currentMenuMarker = -1;
+			
+		} else {
+			//меняем маркер на кликнутый
+			currentMenuMarker = $(this).index();
+
+			hiliteShow($(this));
+			showSubBackground();
+			showNavUl($(this));
+			//showNavLi();
+		}
+	});
 
 }

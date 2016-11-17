@@ -1,5 +1,5 @@
 /* define mixins */
-@define-mixin mixin-ul {
+@define-mixin subheader-ul {
 	display: flex;
 	color: $baseGrey;
 	justify-content: space-between;
@@ -8,7 +8,7 @@
 	padding: 0;
 }
 
-@define-mixin mixin-li {
+@define-mixin subheader-li {
 	display: inline;
 	cursor: pointer;
 	padding: 5px;	
@@ -19,18 +19,30 @@
 
 #subheader-container {
 	position: fixed;
-	top: 60px;
+	top:0;
+	left:0;
 	width: 100%;
-	margin-bottom: 5rem;
-} /* #subheader-category-container */
+	height: 100%;
+	background-color: rgba(249, 249, 249, .95);
 
-nav.sublevel-01 {
+	@media $medium {
+		height: auto;
+		background-color: transparent;
+		top: 60px;
+		margin-bottom: 5rem;
+	}
+} /* #subheader-container */
+
+nav.subheader-main {
+	
+
 	ul {
-		@mixin mixin-ul;
+		position: relative;
+		@mixin subheader-ul;
 	} /* ul */
 
 	li {
-		@mixin mixin-li;
+		@mixin subheader-li;
 
 
 		svg {
@@ -41,6 +53,19 @@ nav.sublevel-01 {
 			stroke:#4D4D4F;
 			stroke-width:1.5;
 			transition-duration: $transitionDurationDefault;
+		}
+
+		ul {
+			margin-top: 5px;
+			position: absolute;
+			width: 100%;
+			left: 0;
+			display: none;
+			z-index: 1;	
+		}
+
+		ul.active {
+			display: flex;
 		}
 
 	} /* li */
@@ -56,23 +81,19 @@ nav.sublevel-01 {
 	}
 }
 
-nav.sublevel-02 {
+div.sublevel-background {
 	background-color: $clearBlue;
-	min-height: 38px;
+	height: 38px;
+	width: 100%;
 	opacity: 0;
-	display: flex;
+	display: none;
 
-	ul {
-		@mixin mixin-ul;
-		display: none;
-	}
+/*
 
-	ul.active {
-		display: flex;
-	}
+	
 
 	li {
-		@mixin mixin-li;
+		@mixin subheader-li;
 		padding: 0 5px;
 		border-radius: 3px;
 		line-height: 1.8rem;
@@ -81,22 +102,34 @@ nav.sublevel-02 {
 	}
 
 	li.hover {
-		@mixin mixin-li;
+		@mixin subheader-li;
 		padding: 0 5px;
 		color: $clearBlue;
 		background-color: $offwhite;
 		opacity: 0;
 	}
 
-} /* nav.sublevel-02 */
+*/
+
+}
+
+div.sublevel-background.active {
+	display: block;
+}
+
+/* sublevel-background */
 
 nav.breadcrumbs {
 	
-	display: block;
+	display: none;
 	margin-top: calc($categoryHeaderHeight - 45px);
 	margin-left: calc(2.5vw + $filterWidth + $filterMargin);
 	margin-bottom: 16px;
 	font-size: $fontSizeMedium;
+
+	@media $medium {	
+		display: block;
+	}
 	
 	img {
 		width: 14px;

@@ -15,11 +15,8 @@ function callback() {
 				}
 			});
 				
-
 		}
 
-	}) /* click */
+	})
 
 }
-//$('#callback').addClass('active');
-//TweenLite.to($('.active'), 1, {opacity: 1});
