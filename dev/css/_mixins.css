@@ -32,8 +32,12 @@
 
 
 @define-mixin basic-contact-form $width {
-	width: $width;
+	width: 90%;
 	margin: 0 auto;
+
+	@media @medium {
+		width: $width;
+	}
 
 	h2 {
 		@mixin category-h2;
@@ -42,12 +46,20 @@
 
 	section {
 		display: flex;
-		justify-content: space-between;
+		flex-direction: column;
+
+		@media $medium {
+			flex-direction: row;
+			justify-content: space-between;
+		}
 
 		div {
-			width: 48%;
+
+			@media $medium {
+				width: 48%;
+			}
 		}
-	}
+	} /* section */
 
 	input {
 		width: 100%;
