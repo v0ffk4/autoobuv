@@ -1,8 +1,3 @@
-/* variables */
-$categoryHeaderHeight:	20rem;
-$filterMargin:			25px;
-$filterWidth:			230px;
-
 #category {
 	padding-top: 1px;
 
@@ -79,22 +74,6 @@ $filterWidth:			230px;
 		}
 
 	} /* .container-filter-content */
-
-	nav.breadcrumbs {
-		
-		display: block;
-		margin-top: calc($categoryHeaderHeight - 45px);
-		margin-left: calc(2.5vw + $filterWidth + $filterMargin);
-		margin-bottom: 16px;
-		font-size: $fontSizeMedium;
-		
-		img {
-			width: 14px;
-			height: 13px;
-			margin: 0 5px -3px 5px;
-		}
-
-	}
 
 	.category-items-container {
 		@mixin category-section-container white $marginMedium;

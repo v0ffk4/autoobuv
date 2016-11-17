@@ -2,12 +2,12 @@
 @import "mixins";
 @import "base";
 @import "modules/header";
-@import "modules/callback";
 @import "modules/subheader";
+@import "modules/callback";
 @import "modules/order";
 @import "modules/footer";
-@import "pages/homepage";
+@import "pages/home";
 @import "pages/about";
 @import "pages/category";
-@import "pages/itempage";
+@import "pages/item";
 @import "pages/contacts";

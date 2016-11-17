@@ -142,7 +142,3 @@
 		@mixin basic-contact-form 60%;
 	} /* /section.category-contact-form */
 }
-
-nav.breadcrumbs {
-		margin-left: 0;
-	}

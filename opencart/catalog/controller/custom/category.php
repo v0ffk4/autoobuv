@@ -15,6 +15,7 @@ class ControllerCustomCategory extends Controller {
     $data['content_bottom'] = $this->load->controller('common/content_bottom');
     $data['footer'] = $this->load->controller('common/footer');
     $data['header'] = $this->load->controller('common/header');
+    $data['subheader'] = $this->load->controller('common/subheader');
 
     $this->response->setOutput($this->load->view('common/category', $data));
   }

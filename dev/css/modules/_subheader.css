@@ -17,7 +17,7 @@
 /* end mixins */
 
 
-#subheader-category-container {
+#subheader-container {
 	position: fixed;
 	top: 60px;
 	width: 100%;
@@ -89,3 +89,18 @@ nav.sublevel-02 {
 	}
 
 } /* nav.sublevel-02 */
+
+nav.breadcrumbs {
+	
+	display: block;
+	margin-top: calc($categoryHeaderHeight - 45px);
+	margin-left: calc(2.5vw + $filterWidth + $filterMargin);
+	margin-bottom: 16px;
+	font-size: $fontSizeMedium;
+	
+	img {
+		width: 14px;
+		height: 13px;
+		margin: 0 5px -3px 5px;
+	}
+}/* breadrumbs */
