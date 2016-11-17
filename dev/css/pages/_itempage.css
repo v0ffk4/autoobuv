@@ -4,7 +4,7 @@
 		background-color: white;
 		display: flex;
 		flex-direction: column;
-		padding-top: 10px;
+		padding: 25px 10px;
 
 		@media $medium {
 			padding: 25px;
@@ -131,8 +131,12 @@
 } /* item */
 
 .contact-form-container-item {
-	width: 80%;
+	width: 100%;
 	margin: $marginDefault auto $marginDefault auto;
+
+	@media $medium {
+		width: 80%;
+	}
 }
 
 nav.breadcrumbs {

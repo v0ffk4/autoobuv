@@ -383,51 +383,47 @@
 	</div>
 	<!-- /.category-items-container -->
 
-	<div class="contact-form-container">
+	<section class="basic-contact-form">
+		<h2>
+			Не нашли то, что искали?
+		</h2>
+		<p>Заполните форму, и мы обязательно с вами свяжемся</p>
+		
+		<form>
+			<section>	
+				<div>
+					<input type="" name="contact-form-name" placeholder="Ваше имя:">
+					<input type="" name="contact-form-name" placeholder="Ваш e-mail:">
+				</div>
+				<div>
+					<textarea cols="30" rows="7">	
+					</textarea>
+				</div>
+			</section>
+			<!-- /.section -->
 
-		<section class="category-contact-form">
-			<h2>
-				Не нашли то, что искали?
-			</h2>
-			<p>Заполните форму, и мы обязательно с вами свяжемся</p>
-			
-			<form>
-				<section>	
-					<div>
-						<input type="" name="contact-form-name" placeholder="Ваше имя:">
-						<input type="" name="contact-form-name" placeholder="Ваш e-mail:">
-					</div>
-					<div>
-						<textarea cols="30" rows="7">	
-						</textarea>
-					</div>
-				</section>
-				<!-- /.section -->
+			<button type="submit">
+				
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+					<defs>
+						<style>
+							.icon-form-plain-cls-1{fill:none;}
+							.icon-form-plain-cls-2{fill:#fff;}
+						</style>
+					</defs>
+					<title>icon-form-plain</title>
+					<g>
+						<rect class="icon-form-plain-cls-1" width="14" height="14"/>
+						<polygon class="icon-form-plain-cls-2" points="6 9.03 6 13.03 8 10 13 13 14 0 0 5 4 8 12 3 6 9.03"/>
+					</g>
+				</svg>
 
-				<button type="submit">
-					
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
-						<defs>
-							<style>
-								.icon-form-plain-cls-1{fill:none;}
-								.icon-form-plain-cls-2{fill:#fff;}
-							</style>
-						</defs>
-						<title>icon-form-plain</title>
-						<g>
-							<rect class="icon-form-plain-cls-1" width="14" height="14"/>
-							<polygon class="icon-form-plain-cls-2" points="6 9.03 6 13.03 8 10 13 13 14 0 0 5 4 8 12 3 6 9.03"/>
-						</g>
-					</svg>
+				Отправить
+			</button>				
+		</form>
 
-					Отправить
-				</button>				
-			</form>
-
-		</section>
-		<!-- /.contact-form -->		
-	</div>
-	<!-- /.category-items-container -->
+	</section>
+	<!-- /.basic-contact-form -->
 		
 
 

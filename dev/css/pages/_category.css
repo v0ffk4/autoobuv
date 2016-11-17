@@ -205,7 +205,7 @@ $filterWidth:			230px;
 		@mixin category-section-container $offWhite $marginDefault;
 	}
 
-	section.category-contact-form {
+	section.basic-contact-form {
 		
 		width: 80%;
 		margin: 0 auto;
