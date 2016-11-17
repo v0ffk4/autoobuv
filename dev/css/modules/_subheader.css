@@ -95,16 +95,19 @@ nav.subheader-main {
 			margin-top: 0px;
 			left: 0;
 			top: 50vh;
+			height: 40vh;
 			width: 100%;
 			background-color: green;
+			align-items: center;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding: 0;
+			display: none;
 
 			@media $medium {
 				margin-top: 10px;
-				position: absolute;
-				width: 100%;
-				left: 0;
 				top: auto;
-				display: none;
 				z-index: 1;
 				color: white;
 			}
@@ -112,12 +115,11 @@ nav.subheader-main {
 
 		ul.active {
 			display: flex;
-			align-items: center;
 
 			li {
-			padding: 0 5px;
-			border-radius: 3px;
-			color: white;
+				padding: 0 15px;
+				border-radius: 3px;
+				color: white;
 			}
 			
 			li.hover {
