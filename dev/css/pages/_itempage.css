@@ -74,9 +74,12 @@
 				}
 				
 				div {
-					
-					width: 60%;
-					text-align: center;
+				width: 100%;
+				text-align: center;
+				
+					@media $medium {				
+						width: 60%;
+					}
 
 					h1 {
 						font-weight: $fontWeightBold;
