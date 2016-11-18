@@ -7,7 +7,7 @@ function headerOpacity() {
 	    	opac = 0.96;
 	    }
 	    $('.header-bcg').css({opacity: opac});
-	    $('#subheader-category-bcg').css({opacity: opac});
+	    $('#subheader-background').css({opacity: opac});
 	});
 
 }

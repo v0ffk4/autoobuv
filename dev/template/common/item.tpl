@@ -1,7 +1,13 @@
 <?php echo $header; ?>
 
 <!-- лучше это вынести в tpl -->
-<div id="subheader-container">	
+<div id="subheader-container">
+
+	<!-- subheader-background нужен для фона регулируемой прозрачности -->
+	<div id="subheader-background">
+	</div>
+	<!-- /#subheader-background -->
+
 	<nav class="subheader-main">
 		<ul class="container">
 			<li>
