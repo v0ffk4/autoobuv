@@ -73,7 +73,6 @@ nav.subheader-main {
 			margin-top: 0px;
 			left: 0;
 			top: $subnavUlTop;
-			width: 100%;
 			height: $subnavUlHeight;
 			align-items: center;
 			flex-direction: row;
@@ -86,6 +85,8 @@ nav.subheader-main {
 				justify-content: space-between;
 				margin-top: 10px;
 				top: auto;
+				left: 10%;
+				width: 80%;		
 				height: auto;
 				z-index: 1;
 				color: white;
@@ -142,12 +143,12 @@ div.sublevel-background {
 	width: 100%;
 	background-color: $clearBlue;
 	box-shadow: inset 0 3px 10px -5px #000;
+	opacity: 0;
+	display: none;
 
 	@media $medium {
 		position: static;
-		height: 38px;
-		opacity: 0;
-		display: none;
+		height: 38px;	
 	}
 	
 }
