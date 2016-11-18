@@ -1,3 +1,6 @@
+$subnavUlTop: 60vh;
+$subnavUlHeight: 30vh;
+
 #subheader-container {
 	position: fixed;
 	top:0;
@@ -32,7 +35,6 @@ nav.subheader-main {
 	}
 
 	ul {
-		position: relative;
 		display: flex;
 		flex-direction: column;
 		height: 50vh;
@@ -70,10 +72,9 @@ nav.subheader-main {
 			position: absolute;
 			margin-top: 0px;
 			left: 0;
-			top: 55vh;
+			top: $subnavUlTop;
 			width: 100%;
-			height: 30vh;
-			background-color: $clearBlue;
+			height: $subnavUlHeight;
 			align-items: center;
 			flex-direction: row;
 			flex-wrap: wrap;
@@ -94,6 +95,7 @@ nav.subheader-main {
 
 		ul.active {
 			display: flex;
+			z-index: 999;
 
 			li {
 				margin: 0 15px;
@@ -133,11 +135,21 @@ nav.subheader-main {
 
 /* фон отдельно, иначе его на весь экран не раздвинуть */
 div.sublevel-background {
-	background-color: $clearBlue;
-	height: 38px;
+	
+	position: absolute;
+	height: $subnavUlHeight;
+	top: $subnavUlTop;
 	width: 100%;
-	opacity: 0;
-	display: none;
+	background-color: $clearBlue;
+	box-shadow: inset 0 3px 10px -5px #000;
+
+	@media $medium {
+		position: static;
+		height: 38px;
+		opacity: 0;
+		display: none;
+	}
+	
 }
 
 div.sublevel-background.active {
