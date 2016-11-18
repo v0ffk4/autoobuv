@@ -5,6 +5,7 @@
 	<nav class="subheader-main">
 		<ul class="container">
 			<li>
+				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
 					<polyline class="cls-1" points="0.38 7.33 3.38 3.83 0.38 0.33"/>
@@ -24,6 +25,7 @@
 			</li>
 
 			<li>
+				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для малых грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
 					<polyline class="cls-1" points="0.38 7.33 3.38 3.83 0.38 0.33"/>
@@ -35,6 +37,7 @@
 				</ul>
 			</li>
 			<li>
+				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для спецтехники</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
 					<polyline class="cls-1" points="0.38 7.33 3.38 3.83 0.38 0.33"/>
@@ -52,13 +55,15 @@
 				</ul>
 			</li>
 			<li>
-				Камеры и ободные ленты
+				<!-- span нужен для работы селектора в jQuery -->
+				<span>Камеры и ободные ленты</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
 					<polyline class="cls-1" points="0.38 7.33 3.38 3.83 0.38 0.33"/>
 				</svg>
 			</li>
 			<li>
-				Колесные диски
+				<!-- span нужен для работы селектора в jQuery -->
+				<span>Колесные диски</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
 					<polyline class="cls-1" points="0.38 7.33 3.38 3.83 0.38 0.33"/>
 				</svg>

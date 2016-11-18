@@ -130,6 +130,7 @@ function orderFrontend() {
 	
 	//order click
 	$(categoryItemButton).click(function(){
+		alert('clicked');
 		showOrderWindow();
 	});
 
