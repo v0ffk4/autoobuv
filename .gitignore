@@ -56,6 +56,7 @@ Thumbs.db
 opencart/admin
 opencart/install
 opencart/system
+opencart/image
 
 # track readme (i.e. do NOT ignore it)
 !opencart/drop_opencart-upload_here.md
