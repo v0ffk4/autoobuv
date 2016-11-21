@@ -85,16 +85,16 @@
 				<line x1="2" y1="16.5" x2="30" y2="16.5"/>
 				<line x1="2" y1="2.5" x2="30" y2="2.5"/>
 			</g>
-			<g class="main-menu-close">
-				<rect class="burger-svg-frame" width="32" height="32"/>
-				<line x1="2.5" y1="29.5" x2="29.5" y2="2.5"/>
-				<line x1="29.5" y1="29.5" x2="2.5" y2="2.5"/>
-			</g>
 			<g class="category-menu-close">
 				<rect class="burger-svg-frame" width="32" height="32"/>
 				<line x1="2.5" y1="29.5" x2="29.5" y2="2.5"/>
 				<line x1="29.5" y1="29.5" x2="2.5" y2="2.5"/>
 			</g>
+			<g class="main-menu-close">
+				<rect class="burger-svg-frame" width="32" height="32"/>
+				<line x1="2.5" y1="29.5" x2="29.5" y2="2.5"/>
+				<line x1="29.5" y1="29.5" x2="2.5" y2="2.5"/>
+			</g>			
 			</svg>
 
 		</div>

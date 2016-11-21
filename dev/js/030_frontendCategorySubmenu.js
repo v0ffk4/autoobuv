@@ -153,6 +153,7 @@ function categorySubmenu() {
 		
 
 		var submenuHideTl = new TimelineMax();
+		$(mainMenuOpen).addClass('active');
 
 		submenuHideTl
 			.to(subheaderContainer, 0.5, {opacity: 0, ease: Power2.easeOut, onComplete:
@@ -163,7 +164,6 @@ function categorySubmenu() {
 			.to(categoryMenuClose, 0.5, {opacity:0, ease: Power2.easeOut, onComplete:
 				function() {
 					$(categoryMenuClose).removeClass('active');
-					$(mainMenuOpen).addClass('active');
 				}
 			}, '-=0.5')
 			.to(mainMenuOpen, 0.5, {opacity:1, ease: Power2.easeOut}, '-=0.5')
