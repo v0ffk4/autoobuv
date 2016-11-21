@@ -132,6 +132,4 @@ function categorySubmenu() {
 		submenuShow();
 	})
 	
-
-
 }

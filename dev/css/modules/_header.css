@@ -160,17 +160,43 @@ a.logo {
 
 	} /* .header-contact-info */
 
-	.burger {
-		width: 32px;
-		height: 32px;
-		z-index: 1;
-		display: block;
-
-		@media $medium {
-			display: none;
-		}
-
-
-	}
-
 } /* .header-content */
+
+#burger-button {
+	width: 32px;
+	height: 32px;
+	z-index: 1;
+	display: block;
+	fill: none;
+
+	@media $medium {
+		display: none;
+	}	
+}
+
+#burger-button.button-open {
+	.open {
+		stroke: $red;
+	}
+}
+
+#burger-button.main-menu-close,
+#burger-button.category-menu-close,
+#burger-button.order-close,
+#burger-button.feedback-close {
+	.close {
+		stroke: $red;	
+	}
+}
+
+
+#burger-button {
+	width: 32px;
+	height: 32px;
+	z-index: 1;
+	display: block;
+
+	@media $medium {
+		display: none;
+	}
+}

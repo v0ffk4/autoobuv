@@ -76,52 +76,20 @@
 			</div>
 			<!-- /.header-contact-info -->
 
-			<!-- burger -->
-			<div class="burger">
-				<svg version="1.1" id="svg-frame" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-					 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+			<svg version="1.1" id="burger-button" class="main-menu-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 
-				<style type="text/css">
-				
-					#burger-svg-frame {
-						fill:none;
-					}
-					
-					.burger-stroke {
-						stroke: red;
-					}
-
-					#burger-svg-frame:hover .burger-stroke {
-						stroke: green;
-						fill:none;
-					}
-					
-					#burger-menu-open {
-						opacity: 0;
-						fill: none;
-					}
-
-					#burger-menu-close {
-						opacity: 0;
-						fill: none;
-					}
-
-				</style>
-				<rect id="burger-svg-frame" width="32" height="32"/>
-				<g id="burger-menu-open active">
-					<line class="burger-stroke" x1="2" y1="29.5" x2="30" y2="29.5"/>
-					<line class="burger-stroke" x1="2" y1="16.5" x2="30" y2="16.5"/>
-					<line class="burger-stroke" x1="2" y1="2.5" x2="30" y2="2.5"/>
-				</g>
-				<g id="burger-menu-close">
-					<line class="burger-stroke" x1="2.5" y1="29.5" x2="29.5" y2="2.5"/>
-					<line class="burger-stroke" x1="29.5" y1="29.5" x2="2.5" y2="2.5"/>
-				</g>
-				</svg>
-
-				
-			</div>
-			<!-- /.burger -->
+			<rect class="burger-svg-frame" width="32" height="32"/>
+			<g class="open">
+				<line class="burger-stroke" x1="2" y1="29.5" x2="30" y2="29.5"/>
+				<line class="burger-stroke" x1="2" y1="16.5" x2="30" y2="16.5"/>
+				<line class="burger-stroke" x1="2" y1="2.5" x2="30" y2="2.5"/>
+			</g>
+			<g class="close">
+				<line class="burger-stroke" x1="2.5" y1="29.5" x2="29.5" y2="2.5"/>
+				<line class="burger-stroke" x1="29.5" y1="29.5" x2="2.5" y2="2.5"/>
+			</g>
+			</svg>
 
 		</div>
 		<!-- /.header-content -->
