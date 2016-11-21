@@ -76,18 +76,24 @@
 			</div>
 			<!-- /.header-contact-info -->
 
-			<svg version="1.1" id="burger-button" class="main-menu-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			<svg version="1.1" id="burger-button" class="button-open" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 
-			<rect class="burger-svg-frame" width="32" height="32"/>
-			<g class="open">
-				<line class="burger-stroke" x1="2" y1="29.5" x2="30" y2="29.5"/>
-				<line class="burger-stroke" x1="2" y1="16.5" x2="30" y2="16.5"/>
-				<line class="burger-stroke" x1="2" y1="2.5" x2="30" y2="2.5"/>
+			<g class="main-menu-open active" style="opacity: 1">
+				<rect class="burger-svg-frame" width="32" height="32"/>
+				<line x1="2" y1="29.5" x2="30" y2="29.5"/>
+				<line x1="2" y1="16.5" x2="30" y2="16.5"/>
+				<line x1="2" y1="2.5" x2="30" y2="2.5"/>
 			</g>
-			<g class="close">
-				<line class="burger-stroke" x1="2.5" y1="29.5" x2="29.5" y2="2.5"/>
-				<line class="burger-stroke" x1="29.5" y1="29.5" x2="2.5" y2="2.5"/>
+			<g class="main-menu-close">
+				<rect class="burger-svg-frame" width="32" height="32"/>
+				<line x1="2.5" y1="29.5" x2="29.5" y2="2.5"/>
+				<line x1="29.5" y1="29.5" x2="2.5" y2="2.5"/>
+			</g>
+			<g class="category-menu-close">
+				<rect class="burger-svg-frame" width="32" height="32"/>
+				<line x1="2.5" y1="29.5" x2="29.5" y2="2.5"/>
+				<line x1="29.5" y1="29.5" x2="2.5" y2="2.5"/>
 			</g>
 			</svg>
 

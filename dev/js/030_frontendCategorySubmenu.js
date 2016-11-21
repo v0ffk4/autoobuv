@@ -121,15 +121,62 @@ function categorySubmenu() {
 //show / hide submenu
 
 	var subheaderContainer = $('#subheader-container');
-	var subheaderBtn = $('#subheader-button');
+	var categoryMenuOpen = $('#subheader-button');
+	var mainMenuOpen = $('.main-menu-open');
+	var categoryMenuClose = $('.category-menu-close');
 
-	function submenuShow() {
-		$(subheaderContainer).addClass('active');
-		TweenLite.to(subheaderContainer, 0.5, {opacity: 1, ease: Power2.easeOut });
+//show submenu
+	function categorySubmenuShow() {
+
+	$(subheaderContainer).addClass('active');
+
+	var submenuShowTl = new TimelineMax();
+
+	submenuShowTl
+		.to(subheaderContainer, 0.5, {opacity: 1, ease: Power2.easeOut })
+		.to(mainMenuOpen, 0.5, { opacity: 0, ease: Power2.easeOut, onComplete:
+			function() {
+				$(mainMenuOpen).removeClass('active');
+			}
+		}, '-=0.5' )
+		.set(categoryMenuClose, {opacity:0, onComplete:
+			function() {
+				$(categoryMenuClose).addClass('active');
+			}
+		}, '-=0.5')
+		.to(categoryMenuClose, 0.5, {opacity: 1, ease: Power2.easeOut}, '-=0.5')	
+
+	}
+
+//hide submenu
+	function categorySubmenuHide() {
+		
+
+		var submenuHideTl = new TimelineMax();
+
+		submenuHideTl
+			.to(subheaderContainer, 0.5, {opacity: 0, ease: Power2.easeOut, onComplete:
+				function() {
+					$(subheaderContainer).removeClass('active');
+				}
+			})
+			.to(categoryMenuClose, 0.5, {opacity:0, ease: Power2.easeOut, onComplete:
+				function() {
+					$(categoryMenuClose).removeClass('active');
+					$(mainMenuOpen).addClass('active');
+				}
+			}, '-=0.5')
+			.to(mainMenuOpen, 0.5, {opacity:1, ease: Power2.easeOut}, '-=0.5')
+			
 	}
 	
-	$(subheaderBtn).click( function() {
-		submenuShow();
-	})
+	$(categoryMenuOpen).click( function() {
+		categorySubmenuShow();
+		
+	});
+
+	$(categoryMenuClose).click( function() {
+		categorySubmenuHide()
+	});
 	
 }

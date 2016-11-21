@@ -168,35 +168,32 @@ a.logo {
 	z-index: 1;
 	display: block;
 	fill: none;
+	stroke-width: 1.5;
+	cursor: pointer;
 
 	@media $medium {
 		display: none;
-	}	
-}
+	}
 
-#burger-button.button-open {
-	.open {
+	.burger-svg-frame {
+		stroke: none;
+		fill: transparent;
+	}
+
+	.main-menu-open,
+	.main-menu-close,
+	.category-menu-close {
 		stroke: $red;
+		z-index: 0;
+		opacity: 0;
 	}
-}
 
-#burger-button.main-menu-close,
-#burger-button.category-menu-close,
-#burger-button.order-close,
-#burger-button.feedback-close {
-	.close {
-		stroke: $red;	
+	.main-menu-open {
+		stroke: $baseBlack;
 	}
-}
 
-
-#burger-button {
-	width: 32px;
-	height: 32px;
-	z-index: 1;
-	display: block;
-
-	@media $medium {
-		display: none;
+	.active {
+		z-index: 1;
 	}
+
 }
