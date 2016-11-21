@@ -17,14 +17,43 @@ $subnavUlHeight: 30vh;
 	height: 100%;
 	background-color: rgba(249, 249, 249, .95);
 	z-index: 1;
+	display: none;
+	opacity: 0;
 
 	@media $medium {
+		display: block;
+		opacity: 1;
 		height: auto;
 		background-color: transparent;
 		top: 60px;
 		margin-bottom: 5rem;
 	}
 } /* #subheader-container */
+
+#subheader-container.active {
+	display: block;
+}
+
+	
+#subheader-button {
+	@mixin button;
+	position: absolute;
+	top: $headerHeight;
+	margin-top: 30px;
+	display: block;
+	left: 50%;
+	transform: translate(-50%, 0);
+	
+	@media $medium {
+		display: none;
+	}
+}
+
+#subheader-button.hidden {
+	display: none;
+}
+
+
 
 nav.subheader-main {
 	

@@ -118,4 +118,20 @@ function categorySubmenu() {
 		}
 	});
 
+//show / hide submenu
+
+	var subheaderContainer = $('#subheader-container');
+	var subheaderBtn = $('#subheader-button');
+
+	function submenuShow() {
+		$(subheaderContainer).addClass('active');
+		TweenLite.to(subheaderContainer, 0.5, {opacity: 1, ease: Power2.easeOut });
+	}
+	
+	$(subheaderBtn).click( function() {
+		submenuShow();
+	})
+	
+
+
 }
