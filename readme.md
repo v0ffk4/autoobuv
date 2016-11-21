@@ -13,3 +13,5 @@ To install required packages, use
 >npm install
 
 in _project_ directory
+
+###ДИСТРИУТИВ OPENCART копировать в папку opencart, не переписывая то, что там уже лежит. 
