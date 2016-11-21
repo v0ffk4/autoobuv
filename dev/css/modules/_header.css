@@ -115,7 +115,6 @@ a.logo {
 
 	.nav-main.active {
 		display: flex;
-		opacity: 1;
 	} /* .nav-main.active */
 
 	.header-contact-info {

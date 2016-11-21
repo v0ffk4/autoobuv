@@ -1,14 +1,57 @@
 function mainNav() {
 	var mainNav = $('.nav-main');
-	var mainMenuOpen = $('.main-menu-open');
+	var mainNavOpenBtn = $('.main-menu-open');
+	var mainNavCloseBtn = $('.main-menu-close');
 
 
 	function mainNavOpen() {
-		alert('clicked');
+		$(mainNav).addClass('active');
+
+		var showMainNav = new TimelineMax();
+		showMainNav
+			.to(mainNav, 0.5, {opacity: 1, ease: Power2.easeOut })
+			.to(mainNavOpenBtn, 0.5, { opacity: 0, ease: Power2.easeOut, onComplete:
+			function() {
+				$(mainNavOpenBtn).removeClass('active');
+			}
+		}, '-=0.5' )
+		.set(mainNavCloseBtn, {opacity:0, onComplete:
+			function() {
+				$(mainNavCloseBtn).addClass('active');
+			}
+		}, '-=0.5')
+		.to(mainNavCloseBtn, 0.5, {opacity: 1, ease: Power2.easeOut}, '-=0.5')
 	}
 
-	$(mainMenuOpen).click(function(){
-		alert("click");
+
+	function mainNavClose() {
+
+		var hideMainNavTl = new TimelineMax();
+		$(mainNavOpenBtn).addClass('active');
+
+		hideMainNavTl
+			.to(mainNav, 0.5, {opacity: 0, ease: Power2.easeOut, onComplete:
+				function() {
+					$(mainNav).removeClass('active');
+				}
+			})
+			.to(mainNavCloseBtn, 0.5, {opacity:0, ease: Power2.easeOut, onComplete:
+				function() {
+					$(mainNavCloseBtn).removeClass('active');
+				}
+			}, '-=0.5')
+			.to(mainNavOpenBtn, 0.5, {opacity:1, ease: Power2.easeOut}, '-=0.5')
+
+	}
+
+
+	$(mainNavOpenBtn).click(function(){
+		mainNavOpen();
+	});
+	
+
+	$(mainNavCloseBtn).click(function(){
+		mainNavClose();
 	});
 
 }
