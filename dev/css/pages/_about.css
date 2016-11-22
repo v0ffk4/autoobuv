@@ -191,7 +191,8 @@ img.about-arrow {
 
 img.container {
 	width: 1064px;
-	height: 421px;
+	height: auto;
 	display: block;
 	margin-top: $marginDefault;
+	max-width: 90vw;
 }
