@@ -2,22 +2,33 @@
 
 	h1 {
 		text-align: center;
+		line-height: 4rem;
+		
+		@media $small {
+			line-height: auto;
+		}		
 	}
 	
 	.tagline-container {
-		margin: 10rem auto $marginDefault auto;
-		height: 730px;
-		background-image: url(/catalog/view/theme/autoobuv/image/bcg-about.svg);
-		background-repeat: no-repeat;
-		background-position: bottom left;
-		background-size: 590px;
+		margin: calc($headerHeight + 50px) auto $marginDefault auto;
 		position: relative;
-		padding-top: 1px;
+		padding: 1px 0 0 0;
+		height: auto;
+
+		@media $small {
+			background-image: url(/catalog/view/theme/autoobuv/image/bcg-about.svg);
+			background-repeat: no-repeat;
+			background-position: bottom left;
+			background-size: 590px;
+			height: 730px;
+		}
 
 		.tagline {
-			position: absolute;
-			top: 0;
-			left: 120px;
+			@media $small {
+				position: absolute;
+				top: 0;
+				left: 120px;
+			}
 
 			h1 {
 				text-align: left;
@@ -36,7 +47,10 @@
 		} /* tagline */
 
 		.advantages {
-			margin: 280px 0 80px 610px;
+
+			@media $small {
+				margin: 280px 0 80px 610px;
+			}
 
 			section {
 				margin-top: 70px;
@@ -72,15 +86,23 @@
 		}
 			
 		ul {
-			display: flex;
-			justify-content: space-between;
+			padding: 0;
+
+			@media $small {
+				display: flex;
+				justify-content: space-between;
+			}
 		}
 		
 		li {
+			margin: 0 0 50px 0;
 			display: block;
-			margin: 0 20px;
-			flex: 1 1 33.3333%;
-			max-width: 350px;
+			
+			@media $small {
+				margin: 0 20px;
+				flex: 1 1 33.3333%;
+				max-width: 350px;
+			}
 		}
 
 		img {
@@ -128,14 +150,26 @@
 
 		.logos {
 			display: flex;
+			flex-wrap: wrap;
 			justify-content: space-between;
+			margin-bottom: $marginDefault;
+
+			@media $small {
+				justify-content: space-between;
+			}
+
 		}
 
 		img {
 			display: block;
+			margin: 0 1rem;
+			max-width: 125px;
 			flex: 1 1 25%;
-			margin: 2.5rem 4rem;
-			max-width: 200px;
+
+			@media $small {			
+				margin: 2.5rem 4rem;
+				max-width: 200px;
+			}
 		}
 
 	}
