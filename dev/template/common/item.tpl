@@ -170,6 +170,13 @@
 	<!-- /.item-container -->
 	
 	<div class="item-form-container">
+
+		<section class="description">
+			<h2>Текст для SEO</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam numquam ex, inventore placeat iure dolor voluptatum est voluptas possimus eligendi, praesentium temporibus recusandae repellendus pariatur, debitis cum voluptatem. Accusamus, totam ad iure sequi aspernatur fuga eveniet optio fugit libero. Nesciunt quia tenetur delectus voluptatem tempore quidem maxime ex quos, natus!</p>
+		</section>
+		<!-- /.category-form-container -->
+
 		<section class="basic-contact-form">
 			<h2>
 				Не нашли то, что искали?

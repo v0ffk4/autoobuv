@@ -227,9 +227,17 @@
 		@mixin category-section-container $offWhite $marginDefault;
 
 		section.basic-contact-form {
-			@mixin basic-contact-form 80%;
+			@mixin basic-description-container 80%;
 		} /* /section.category-contact-form */
 
+	}
+
+	.description {
+		@mixin basic-description-container 80%;
+
+		p {
+			margin-bottom: $marginDefault;
+		}
 	}
 
 

@@ -140,7 +140,15 @@
 		width: 60%;
 	}
 
+	.description {
+		@mixin basic-description-container 80%;
+
+		p {
+			margin-bottom: $marginDefault;
+		}
+	}
+
 	section.basic-contact-form {
-		@mixin basic-contact-form 60%;
+		@mixin basic-description-container 60%;
 	} /* /section.category-contact-form */
 }
