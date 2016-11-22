@@ -15,7 +15,7 @@
 		padding: 1px 0 0 0;
 		height: auto;
 
-		@media $small {
+		@media $large {
 			background-image: url(/catalog/view/theme/autoobuv/image/bcg-about.svg);
 			background-repeat: no-repeat;
 			background-position: bottom left;
@@ -24,7 +24,7 @@
 		}
 
 		.tagline {
-			@media $small {
+			@media $large {
 				position: absolute;
 				top: 0;
 				left: 120px;
@@ -48,14 +48,23 @@
 
 		.advantages {
 
-			@media $small {
+			@media $large {
 				margin: 280px 0 80px 610px;
 			}
 
 			section {
-				margin-top: 70px;
+				margin: 70px auto 0 auto;
 				display: flex;
 				align-items: center;
+				width: auto;
+				
+				@media $small {
+					justify-content: center;	
+				}
+
+				@media $large {
+					justify-content: flex-start;
+				}
 			}
 
 			img {
@@ -193,6 +202,21 @@ img.container {
 	width: 1064px;
 	height: auto;
 	display: block;
-	margin-top: $marginDefault;
+	margin: $marginDefault auto 0 auto;
 	max-width: 90vw;
+	display: none;
+
+	@media $large {
+		display: block;
+	}
+}
+
+img.container-web {
+	display: block;
+	margin: 0 auto;
+	max-width: 90vw;
+
+	@media $large {
+		display: none;
+	}
 }

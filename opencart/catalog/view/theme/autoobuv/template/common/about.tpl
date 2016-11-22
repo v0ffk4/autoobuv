@@ -46,6 +46,7 @@
 	<img class="about-arrow" src="catalog/view/theme/autoobuv/image/about-arrow.svg">
 
 	<img class="container" src="catalog/view/theme/autoobuv/image/container-grey.jpg">
+	<img class="container-web" src="catalog/view/theme/autoobuv/image/container-mobile.jpg">
 
 	<section class="extras">
 		<h1>А также:</h1>
