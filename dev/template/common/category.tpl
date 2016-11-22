@@ -98,9 +98,9 @@
 <section id="category">
 	<!-- begin filter -->
 	<!-- separate background for transparency effect -->	
-	<div class="container-filter-background">
+	<div class="filter-background">
 
-		<div class="container-filter-content">
+		<div class="filter-content">
 
 			<form>
 

@@ -1,21 +1,27 @@
 #category {
 	padding-top: 1px;
 
-	.container-filter-background {
-		position: fixed;
-		top: $categoryHeaderHeight;
-		left: 2.5vw;
-		width: $filterWidth;
-		background-color: $offwhite;
-		opacity: .8;
-		border-radius: 3px;
-		box-shadow: 0px 5px 15px $shadowColor;
-		margin: 0;
-		padding: 0
+	.filter-background {
+		display: none;
+		
+		@media $medium {
+			display: block;
+			position: fixed;
+			top: $categoryHeaderHeight;
+			left: 2.5vw;
+			width: $filterWidth;
+			background-color: $offwhite;
+			opacity: .8;
+			border-radius: 3px;
+			box-shadow: 0px 5px 15px $shadowColor;
+			margin: 0;
+			padding: 0;
+		}
+
 	}
 
 
-	.container-filter-content {
+	.filter-content {
 		padding: 15px;
 		
 		h4 {
@@ -89,12 +95,17 @@
 			}
 
 			span {
-				position: absolute;
-				right: 0;
-				bottom: -3px;
-				font-weight: $fontWeightLight;
-				font-size: $fontSizeMedium;
-				font-style: normal;
+				display: none;
+				
+				@media $small {
+					position: absolute;
+					display: inline;
+					right: 0;
+					bottom: -3px;
+					font-weight: $fontWeightLight;
+					font-size: $fontSizeMedium;
+					font-style: normal;
+				}
 
 				a {
 					color: $clearBlue;
@@ -128,16 +139,25 @@
 	} /* category-items-container */
 
 	.category-items {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		display: block;
+
+		@media $small {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+
 	}
 
 	.category-item {
 		width: 210px;
 		height: 250px;
 		text-align: center;
-		margin: 10px 10px 25px 10px;
+		margin: 10px auto 60px auto;
+
+		@media $small {
+			margin: 10px 10px 25px 10px;
+		}
 
 		div {
 			width: 170px;
