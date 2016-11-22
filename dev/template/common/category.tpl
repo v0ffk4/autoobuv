@@ -218,6 +218,7 @@
 				</a>
 			</span>
 		</h2>
+		<button class="all-actions">Все акции</button>
 
 		<div class="category-items">
 			
@@ -312,6 +313,7 @@
 				</a>
 			</span>
 		</h2>
+		<button class="all-actions">Все популярные товары</button>
 
 		<div class="category-items">
 			
