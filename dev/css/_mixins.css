@@ -1,5 +1,31 @@
 /* mixins */
 
+@define-mixin ad-container $position-left $svg-margin {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: absolute;
+	bottom: 0;
+	left: $position-left;
+	transform: translate();
+
+	a {	
+		display: block;
+		text-decoration: none;
+		border-bottom: none;
+		font-size: 0;
+		line-height: 0;
+	}
+
+	svg {
+		margin: 0;
+		padding: 0;
+		margin-bottom: $svg-margin;
+	}
+	
+}
+
 @define-mixin category-section-container $background-color $margin-bottom {
 	padding: 10px 25px;
 	margin-top: calc( $headerHeight + 50px );

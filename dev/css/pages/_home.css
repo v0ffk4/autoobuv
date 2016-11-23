@@ -14,30 +14,13 @@
 	padding-top: 1px;
 }
 
-
 .ad-container-left {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	position: absolute;
-	bottom: 0;
-	left: 25%;
-	transform: translate();
+	@mixin ad-container 25% 30px;
+}
 
-	a {	
-		display: block;
-		text-decoration: none;
-		border-bottom: none;
-		font-size: 0;
-		line-height: 0;
-	}
-
-	svg {
-		margin: 0;
-		padding: 0;
-		margin-bottom: 30px;
-	}
-
+.ad-container-right {
+	@mixin ad-container 75% 50px;
+	transform: translate(-100%);
 }
 
 
