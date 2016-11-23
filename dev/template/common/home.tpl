@@ -10,13 +10,13 @@
 <style type="text/css">
 	.banner-02-frame {
 		fill: transparent;
-		stroke: #EF4E37;
+		stroke: #BABABA;
 		stroke-width: 4px;
 		transition-duration: 1s;
 	}
 
 	.banner-02-text {
-		fill: #EF4E37;
+		fill: #BABABA;
 		transition-duration: 1s;
 	}
 	
@@ -109,13 +109,13 @@
 	<style type="text/css">
 
 		.banner-01-text {
-			fill: #4E4D50;
+			fill: #BABABA;
 			transition-duration: 1000ms;
 		}
 
 		.banner-01-frame {
 			fill: transparent;
-			stroke: #4E4D50;
+			stroke: #BABABA;
 			stroke-width: 4px;
 			transition-duration: 1000ms;
 		}
@@ -307,13 +307,13 @@
 
 	.banner-03-frame {
 		fill: transparent;
-		stroke: #F9A533;
-		stroke-width: 4px;
+		stroke: #BABABA;
+		stroke-width: 2px;
 		transition-duration: 1s;
 	}
 
 	.banner-03-text {
-		fill: #F9A533;
+		fill: #BABABA;
 		transition-duration: 1s;
 	}
 

@@ -2,26 +2,30 @@
 
 @define-mixin ad-container $position-left $svg-margin {
 
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	position: absolute;
-	bottom: 0;
-	left: $position-left;
-	transform: translate();
+	display: none;
 
-	a {	
-		display: block;
-		text-decoration: none;
-		border-bottom: none;
-		font-size: 0;
-		line-height: 0;
-	}
+	@media $large {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		position: absolute;
+		bottom: 0;
+		left: $position-left;
+		transform: translate();
 
-	svg {
-		margin: 0;
-		padding: 0;
-		margin-bottom: $svg-margin;
+		a {	
+			display: block;
+			text-decoration: none;
+			border-bottom: none;
+			font-size: 0;
+			line-height: 0;
+		}
+
+		svg {
+			margin: 0;
+			padding: 0;
+			margin-bottom: $svg-margin;
+		}
 	}
 	
 }
