@@ -1,5 +1,9 @@
 <?php echo $header; ?>
 
+<button id="subheader-button">
+	выбрать категорию
+</button>
+
 <!-- лучше это вынести в tpl -->
 <div id="subheader-container">
 	
