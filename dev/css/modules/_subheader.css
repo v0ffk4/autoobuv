@@ -92,14 +92,13 @@ nav.subheader-main {
 		display: inline;
 		cursor: pointer;
 		padding: 5px;
-		display: flex;
-		align-items: center;
+
 
 
 		svg {
 			width: 4px;
 			height: 8px;
-			margin: 0 0 -3px 4px;
+			margin: 0 0 0 2px;
 			fill:none;
 			stroke:#4D4D4F;
 			stroke-width:1.5;
@@ -109,8 +108,7 @@ nav.subheader-main {
 		img {
 			width: 48px;
 			height: 48px;
-			margin: 0 20px 0 0;
-			display: block;
+			margin: 0 15px -20px 0;
 
 			@media $medium {
 				display: none;
@@ -169,7 +167,7 @@ nav.subheader-main {
 				background-color: $offwhite;
 			}
 
-		} /* ul.active */
+		}
 
 	} /* li */
 

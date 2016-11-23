@@ -15,6 +15,7 @@
 	<nav class="subheader-main">
 		<ul class="container">
 			<li>
+				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-01.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -35,6 +36,7 @@
 			</li>
 
 			<li>
+				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-02.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для малых грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -47,6 +49,7 @@
 				</ul>
 			</li>
 			<li>
+				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-03.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для спецтехники</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -65,6 +68,7 @@
 				</ul>
 			</li>
 			<li>
+				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-04.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Камеры и ободные ленты</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -72,6 +76,7 @@
 				</svg>
 			</li>
 			<li>
+				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-05.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Колесные диски</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
