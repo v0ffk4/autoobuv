@@ -27,12 +27,11 @@
 			margin-bottom: $svg-margin;
 		}
 	}
-	
 }
 
 @define-mixin category-section-container $background-color $margin-bottom {
 	padding: 10px 25px;
-	margin-top: calc($categoryHeaderHeight - 45px);
+	margin: calc($categoryHeaderHeight - 45px) 2.5vw $margin-bottom 0;
 	background-color: $background-color;
 	margin-bottom: $margin-bottom;
 	
