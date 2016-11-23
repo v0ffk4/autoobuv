@@ -81,16 +81,28 @@ a.logo {
 
 		li {
 			display: block;
+			padding: 15px;
 			text-align: center;
 			letter-spacing: 10px;
+			border-radius: 5px;
 
 			@media $medium {
+				padding: 0;
+				border: none;
 				display: inline-block;
 				margin: 0 15px;
 				font-size: $fontSizeMedium;
 				letter-spacing: 0;
 			}
 		} /* li */
+
+		a {
+			border:none;
+			
+			@media $medium {
+				border-bottom: 1px solid;
+			}
+		}
 
 		a.cat-menu-item {
 			@media $medium {
@@ -108,6 +120,15 @@ a.logo {
 			@media $medium {
 				background-color: $red;
 				transition-duration: $transitionDurationDefault;
+			}
+		}
+
+		img {
+			display: block;
+			margin: 0 auto 5px auto;
+
+			@media $medium {
+				display: none;
 			}
 		}
 

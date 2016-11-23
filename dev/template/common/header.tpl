@@ -52,11 +52,36 @@
 
 			<nav class="nav-main">
 				<ul>
-					<li><a href="http://localhost:8888/index.php?route=custom/about">О нас</a></li>
-					<li><a href="http://localhost:8888/index.php?route=custom/category">Товары</a></li>
-					<li><a href="http://localhost:8888/index.php?route=custom/item">Услуги</a></li>
-					<li><a href="#">Сервис</a></li>
-					<li><a href="http://localhost:8888/index.php?route=custom/contacts">Контакты</a></li>
+					<li>
+						<a href="http://localhost:8888/index.php?route=custom/about">
+							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-about.svg">
+							О нас
+						</a>
+					</li>
+					<li>
+						<a href="http://localhost:8888/index.php?route=custom/category">
+							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-catalogue.svg">
+							Товары
+						</a>
+					</li>
+					<li>
+						<a href="http://localhost:8888/index.php?route=custom/item">
+							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-services.svg">
+							Услуги
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-repair.svg">
+							Сервис
+						</a>
+					</li>
+					<li>
+						<a href="http://localhost:8888/index.php?route=custom/contacts">
+							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-contacts.svg">
+							Контакты
+						</a>
+					</li>
 				</ul>
 			</nav>
 			<!-- /.nav-main -->
