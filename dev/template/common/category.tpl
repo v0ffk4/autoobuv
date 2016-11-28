@@ -4,18 +4,19 @@
 	выбрать категорию
 </button>
 
-<!-- лучше это вынести в tpl -->
+<!-- подзаголовок-контейнер -->
 <div id="subheader-container">
 	
-	<!-- subheader-background нужен для фона регулируемой прозрачности -->
+	<!-- фон подзаголовка нужен для регулируемой прозрачности фона чрез js-->
 	<div id="subheader-background">
 	</div>
 	<!-- /#subheader-background -->
 
+	<!-- подзаголовок-содержание -->
 	<nav class="subheader-main">
 		<ul class="container">
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-01.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-01.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -36,7 +37,7 @@
 			</li>
 
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-02.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-02.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для малых грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -49,7 +50,7 @@
 				</ul>
 			</li>
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-03.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-03.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для спецтехники</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -68,7 +69,7 @@
 				</ul>
 			</li>
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-04.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-04.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Камеры и ободные ленты</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -76,7 +77,7 @@
 				</svg>
 			</li>
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-05.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-05.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Колесные диски</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -96,10 +97,10 @@
 
 <!-- лучше это вынести в tpl -->
 <nav class="breadcrumbs">
-	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-home.svg">
-	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
+	<img src="/catalog/view/theme/autoobuv/image/icon-breadcrumbs-home.svg">
+	<img src="/catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
 	<a href="#">Товары</a>
-	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
+	<img src="/catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
 	Каталог
 </nav>
 <!-- /.breadcrumbs -->
@@ -113,7 +114,7 @@
 
 			<form>
 
-				<h4><img src="catalog/view/theme/autoobuv/image/icon-filter-tools.svg">Параметры</h4>
+				<h4><img src="/catalog/view/theme/autoobuv/image/icon-filter-tools.svg">Параметры</h4>
 				
 				<fieldset>
 					<label>Тип шины</label>
@@ -160,7 +161,7 @@
 					</select>
 				</fieldset>
 
-				<h4><img src="catalog/view/theme/autoobuv/image/icon-filter-list.svg">Тип техники</h4>
+				<h4><img src="/catalog/view/theme/autoobuv/image/icon-filter-list.svg">Тип техники</h4>
 
 				<fieldset>
 					<label>Тип техники</label>
@@ -215,7 +216,7 @@
 
 	<div class="category-items-container">
 		<h2>
-			<img src="catalog/view/theme/autoobuv/image/icon-header-icecream.svg">
+			<img src="/catalog/view/theme/autoobuv/image/icon-header-icecream.svg">
 			Акции
 			<span>
 				<a href="#">
@@ -232,7 +233,7 @@
 		<div class="category-items">
 			
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_01.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_01.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -246,7 +247,7 @@
 			<!-- /.category-item -->
 
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_02.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_02.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -260,7 +261,7 @@
 			<!-- /.category-item -->
 
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_03.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_03.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -274,7 +275,7 @@
 			<!-- /.category-item -->
 
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_04.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_04.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -288,7 +289,7 @@
 			<!-- /.category-item -->
 
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_05.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_05.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -310,7 +311,7 @@
 
 	<div class="category-items-container">
 		<h2>
-			<img src="catalog/view/theme/autoobuv/image/icon-header-bag.svg">
+			<img src="/catalog/view/theme/autoobuv/image/icon-header-bag.svg">
 			Популярные товары
 			<span>
 				<a href="#">
@@ -327,7 +328,7 @@
 		<div class="category-items">
 			
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_01.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_01.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -341,7 +342,7 @@
 			<!-- /.category-item -->
 
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_02.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_02.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -355,7 +356,7 @@
 			<!-- /.category-item -->
 
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_03.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_03.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -369,7 +370,7 @@
 			<!-- /.category-item -->
 
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_04.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_04.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -383,7 +384,7 @@
 			<!-- /.category-item -->
 
 			<section class="category-item">
-				<div style="background-image: url(catalog/view/theme/autoobuv/image/items/item_05.png);">
+				<div style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_05.png);">
 				</div>
 				<h5>LONGSTAR E/L3 20.5 - 25</h5>
 				<button>
@@ -453,8 +454,6 @@
 	</div>
 	<!-- /.category-form-container -->
 		
-
-
 </section>
 <!-- /#category -->
 

@@ -18,7 +18,7 @@
 	<nav class="subheader-main">
 		<ul class="container">
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-01.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-01.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -39,7 +39,7 @@
 			</li>
 
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-02.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-02.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для малых грузовиков</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -52,7 +52,7 @@
 				</ul>
 			</li>
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-03.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-03.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Для спецтехники</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -71,7 +71,7 @@
 				</ul>
 			</li>
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-04.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-04.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Камеры и ободные ленты</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -79,7 +79,7 @@
 				</svg>
 			</li>
 			<li>
-				<img src="catalog/view/theme/autoobuv/image/icon-menu-banner-05.svg">
+				<img src="/catalog/view/theme/autoobuv/image/icon-menu-banner-05.svg">
 				<!-- span нужен для работы селектора в jQuery -->
 				<span>Колесные диски</span>
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 8">
@@ -98,10 +98,10 @@
 
 <!-- лучше это вынести в tpl -->
 <nav class="breadcrumbs">
-	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-home.svg">
-	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
+	<img src="/catalog/view/theme/autoobuv/image/icon-breadcrumbs-home.svg">
+	<img src="/catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
 	<a href="#">Товары</a>
-	<img src="catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
+	<img src="/catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
 	Каталог
 </nav>
 <!-- /.breadcrumbs -->
@@ -114,7 +114,7 @@
 
 	<div class="item-container container">
 		
-		<img src="catalog/view/theme/autoobuv/image/items/item-page.jpg">
+		<img src="/catalog/view/theme/autoobuv/image/items/item-page.jpg">
 
 		<section class="item-description">
 			<h2>TAITONG HS203 315/80 R22,5</h2>
@@ -156,7 +156,7 @@
 
 				<div>
 					<h1>33 000<span>Р</span></h1>
-					<img src="catalog/view/theme/autoobuv/image/item-arrow.svg">
+					<img src="/catalog/view/theme/autoobuv/image/item-arrow.svg">
 					<button>
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 11">
 							<g><polyline class="icon-order-stroke" points="8.5 2 8.5 0.5 18.5 0.5 18.5 10.5 8.5 10.5 8.5 9"/><polygon class="icon-order-fill" points="5 10 5 8 0 8 0 3 5 3 5 1 11 5.5 5 10"/>

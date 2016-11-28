@@ -20,7 +20,7 @@
 	<meta name="keywords" content= "<?php echo $keywords; ?>" />
 <?php } ?>
 
-<link href="catalog/view/theme/autoobuv/stylesheet/stylesheet.css" rel="stylesheet">
+<link href="/catalog/view/theme/autoobuv/stylesheet/stylesheet.css" rel="stylesheet">
 
 <!-- change backgroud on category page
 <?php if (!isset($this->request->get['route']) || (isset($this->request->get['route']) && $this->request->get['route'] == 'custom/category')) { ?>
@@ -46,39 +46,39 @@
 		<!-- /.header-bcg -->
 
 		<div class="header-content">
-			<a class="logo" href="http://localhost:8888/">
-				<img class="logo" src="catalog/view/theme/autoobuv/image/logo.svg">
+			<a class="logo" href="/">
+				<img class="logo" src="/catalog/view/theme/autoobuv/image/logo.svg">
 			</a>
 
 			<nav class="nav-main">
 				<ul>
 					<li>
-						<a href="http://localhost:8888/index.php?route=custom/about">
-							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-about.svg">
+						<a href="?route=custom/about">
+							<img class="logo" src="/catalog/view/theme/autoobuv/image/icon-mobile-about.svg">
 							О нас
 						</a>
 					</li>
 					<li>
-						<a href="http://localhost:8888/index.php?route=custom/category">
-							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-catalogue.svg">
+						<a href="?route=custom/category">
+							<img class="logo" src="/catalog/view/theme/autoobuv/image/icon-mobile-catalogue.svg">
 							Товары
 						</a>
 					</li>
 					<li>
-						<a href="http://localhost:8888/index.php?route=custom/item">
-							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-services.svg">
+						<a href="?route=custom/item">
+							<img class="logo" src="/catalog/view/theme/autoobuv/image/icon-mobile-services.svg">
 							Услуги
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-repair.svg">
+							<img class="logo" src="/catalog/view/theme/autoobuv/image/icon-mobile-repair.svg">
 							Сервис
 						</a>
 					</li>
 					<li>
-						<a href="http://localhost:8888/index.php?route=custom/contacts">
-							<img class="logo" src="catalog/view/theme/autoobuv/image/icon-mobile-contacts.svg">
+						<a href="?route=custom/contacts">
+							<img class="logo" src="/catalog/view/theme/autoobuv/image/icon-mobile-contacts.svg">
 							Контакты
 						</a>
 					</li>
@@ -95,7 +95,7 @@
 
 			<!-- contact info -->
 			<div class="header-contact-info">
-				<p><img src="catalog/view/theme/autoobuv/image/icon-header-phone.svg">8-800-250-57-07</p>
+				<p><img src="/catalog/view/theme/autoobuv/image/icon-header-phone.svg">8-800-250-57-07</p>
 
 				<a id="callback-link">обратный звонок</a>
 			</div>
@@ -174,7 +174,7 @@
 		<div id="order-container">
 			<div id="order-frame-01" class="order-frame">
 				<h2>TAITONG HS268 9.00R20</h2>
-				<div class="order-item-image" style="background-image: url(catalog/view/theme/autoobuv/image/items/item_04.png);">
+				<div class="order-item-image" style="background-image: url(/catalog/view/theme/autoobuv/image/items/item_04.png);">
 					
 				</div>
 				<!-- image-div -->
@@ -213,7 +213,7 @@
 					<fieldset>
 						<label>
 							<h2>
-								<img src="catalog/view/theme/autoobuv/image/icon-order-name.svg">
+								<img src="/catalog/view/theme/autoobuv/image/icon-order-name.svg">
 								Ваше имя
 							</h2>
 						</label>
@@ -223,7 +223,7 @@
 					<fieldset>
 						<label>
 							<h2>
-								<img src="catalog/view/theme/autoobuv/image/icon-order-phone.svg">
+								<img src="/catalog/view/theme/autoobuv/image/icon-order-phone.svg">
 								Телефон
 							</h2>
 						</label>
@@ -232,7 +232,7 @@
 					<fieldset>
 						<label>
 							<h2>
-								<img src="catalog/view/theme/autoobuv/image/icon-order-comment.svg">
+								<img src="/catalog/view/theme/autoobuv/image/icon-order-comment.svg">
 								Комментарий к заявке
 							</h2>
 						</label>
