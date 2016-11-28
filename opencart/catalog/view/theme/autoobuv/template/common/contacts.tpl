@@ -2,6 +2,7 @@
 
 <section id="contacts">
 	
+	<!-- карта / тут надо как-то родить смену метоположения / как на наутилусе -->
 	<div id="gMap">
 	</div>
 	<div id="contactinfo">
@@ -40,8 +41,6 @@
 	</div>
 	<!-- /#contactinfo -->
 	
-
-
 </section>
 <!-- /#contacts -->
 

@@ -2,8 +2,8 @@
 
 <section class="container about">
 
-	<div class="tagline-container">
-	
+	<!-- почему мы -->
+	<div class="tagline-container">	
 		<section class="tagline">
 			<h1>Почему мы</h1>
 			<p>С 2010 года поставляем автомобильные шины широкого спектра для грузовых автомобилей<br>
@@ -44,10 +44,12 @@
 	<!-- /.tagline-container -->
 
 	<img class="about-arrow" src="/catalog/view/theme/autoobuv/image/about-arrow.svg">
-
+	
+	<!-- картинка с контейнером / эту часть я перепишу, не по-тимкуковски это -->
 	<img class="container" src="/catalog/view/theme/autoobuv/image/container-grey.jpg">
 	<img class="container-web" src="/catalog/view/theme/autoobuv/image/container-mobile.jpg">
 
+	<!-- а также -->
 	<section class="extras">
 		<h1>А также:</h1>
 		<ul>
@@ -72,11 +74,13 @@
 	</section>
 	<!-- /.extras -->
 
+	<!-- стрелочка -->
 	<div class="black-stripe">		
 	</div>
 	<!-- /.black-stripe -->
 	<img class="about-arrow" src="/catalog/view/theme/autoobuv/image/about-arrow.svg">
 
+	<!-- наша надежность -->
 	<section class="reliability">
 		<h1>Наша надежность подтверждена сертификатами...</h1>
 		<img class="cert" src="/catalog/view/theme/autoobuv/image/about-cert.png">
@@ -87,6 +91,7 @@
 	</section>
 	<!-- /.reliability -->
 
+	<!-- лого партнеров -->
 	<section class="partnership">
 		<h1>...и успешным партнерством:</h1>
 		<div class="logos">

@@ -1,5 +1,6 @@
 <?php echo $header; ?>
 
+<!-- кнопка видна только на мобилке -->
 <button id="subheader-button">
 	выбрать категорию
 </button>
@@ -95,7 +96,7 @@
 </div>
 <!-- /.subheader-container -->
 
-<!-- лучше это вынести в tpl -->
+<!-- хлебные крошки -->
 <nav class="breadcrumbs">
 	<img src="/catalog/view/theme/autoobuv/image/icon-breadcrumbs-home.svg">
 	<img src="/catalog/view/theme/autoobuv/image/icon-breadcrumbs-arrow.svg">
@@ -105,11 +106,13 @@
 </nav>
 <!-- /.breadcrumbs -->
 
-<section id="category">
-	<!-- begin filter -->
-	<!-- separate background for transparency effect -->	
-	<div class="filter-background">
 
+<section id="category">
+	<!-- фильтр -->
+	<!-- фон отдельно для эффекта прозрачности -->	
+	<div class="filter-background">
+		
+		<!-- содержание фильтра -->
 		<div class="filter-content">
 
 			<form>
@@ -212,9 +215,12 @@
 
 	</div>
 	<!-- /.container-filter-background -->
-	<!-- end filter -->
-
+	<!-- конец фильтра -->
+	
+	<!-- первый блок товаров -->
 	<div class="category-items-container">
+		
+		<!-- хитрожопо, да?) -->
 		<h2>
 			<img src="/catalog/view/theme/autoobuv/image/icon-header-icecream.svg">
 			Акции
@@ -228,8 +234,11 @@
 				</a>
 			</span>
 		</h2>
+		
+		<!-- кнопка видна только на мобилке -->
 		<button class="all-actions">Все акции</button>
 
+		<!-- собственно товары -->
 		<div class="category-items">
 			
 			<section class="category-item">
@@ -308,8 +317,10 @@
 	</div>
 	<!-- /.category-items-container -->
 
-
+	<!-- второй блок товаров -->
 	<div class="category-items-container">
+
+		<!-- тоже хитрожопо, да?) -->	
 		<h2>
 			<img src="/catalog/view/theme/autoobuv/image/icon-header-bag.svg">
 			Популярные товары
@@ -323,6 +334,8 @@
 				</a>
 			</span>
 		</h2>
+
+		<!-- кнопка видна только на мобилке -->
 		<button class="all-actions">Все популярные товары</button>
 
 		<div class="category-items">
@@ -402,7 +415,8 @@
 		
 	</div>
 	<!-- /.category-items-container -->
-	
+
+	<!-- сеошный текст и форма обратной связи -->
 	<div class="category-form-container">
 		
 		<section class="description">
@@ -410,7 +424,8 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam numquam ex, inventore placeat iure dolor voluptatum est voluptas possimus eligendi, praesentium temporibus recusandae repellendus pariatur, debitis cum voluptatem. Accusamus, totam ad iure sequi aspernatur fuga eveniet optio fugit libero. Nesciunt quia tenetur delectus voluptatem tempore quidem maxime ex quos, natus!</p>
 		</section>
 		<!-- /.category-form-container -->
-
+		
+		<!-- форма обратной связи / должна быть в контейнере -->
 		<section class="basic-contact-form">
 			<h2>
 				Не нашли то, что искали?
@@ -456,6 +471,5 @@
 		
 </section>
 <!-- /#category -->
-
 
 <?php echo $footer; ?>

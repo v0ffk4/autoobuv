@@ -4,7 +4,8 @@
 	<footer>
 
 		<div class="container">
-
+				
+				<!-- всплывающую форму обратной связи я допишу -->
 				<div>
 					<img src="/catalog/view/theme/autoobuv/image/icon-footer-feedback.svg">
 					<a href="#">обратная&nbsp;связь</a>
