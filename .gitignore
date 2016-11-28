@@ -58,6 +58,7 @@ Thumbs.db
 #opencart/system
 #opencart/image
 opencart/config.php
+opencart/admin/config.php
 
 # track readme (i.e. do NOT ignore it)
 !opencart/drop_opencart-upload_here.md
